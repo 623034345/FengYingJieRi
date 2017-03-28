@@ -15,6 +15,18 @@
 		0449AFE41E8362120071E9E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0449AFE21E8362120071E9E8 /* LaunchScreen.storyboard */; };
 		0449AFEF1E8362130071E9E8 /* FengYingJieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449AFEE1E8362130071E9E8 /* FengYingJieTests.m */; };
 		0449AFFA1E8362130071E9E8 /* FengYingJieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449AFF91E8362130071E9E8 /* FengYingJieUITests.m */; };
+		0449B00B1E8368680071E9E8 /* UIViewController+FYJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449B00A1E8368680071E9E8 /* UIViewController+FYJViewController.m */; };
+		0449B11B1E8372990071E9E8 /* FYJTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449B11A1E8372990071E9E8 /* FYJTextViewController.m */; };
+		0449B11F1E837DFF0071E9E8 /* FYJTheConstellationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449B11D1E837DFF0071E9E8 /* FYJTheConstellationViewController.m */; };
+		0449B1201E837DFF0071E9E8 /* FYJTheConstellationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0449B11E1E837DFF0071E9E8 /* FYJTheConstellationViewController.xib */; };
+		0449B1241E837EA60071E9E8 /* WZBDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449B1231E837EA60071E9E8 /* WZBDatePicker.m */; };
+		0477E8841E851A88001AC4DF /* TheIunarCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E8821E851A88001AC4DF /* TheIunarCalendarViewController.m */; };
+		0477E8851E851A88001AC4DF /* TheIunarCalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0477E8831E851A88001AC4DF /* TheIunarCalendarViewController.xib */; };
+		0477E8891E851D54001AC4DF /* CalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E8871E851D54001AC4DF /* CalendarCell.m */; };
+		0477E88A1E851D54001AC4DF /* CalendarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0477E8881E851D54001AC4DF /* CalendarCell.xib */; };
+		04C212411E8A132200F7016C /* UICalender.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C212401E8A132200F7016C /* UICalender.m */; };
+		04C212441E8A137E00F7016C /* DataCalender.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C212431E8A137E00F7016C /* DataCalender.m */; };
+		35A82DBAD58B84690D326BEE /* Pods_FengYingJie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4BEB686ACB258742E917D3 /* Pods_FengYingJie.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03827EE5890C86F6AD593E7D /* Pods-FengYingJie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FengYingJie.release.xcconfig"; path = "Pods/Target Support Files/Pods-FengYingJie/Pods-FengYingJie.release.xcconfig"; sourceTree = "<group>"; };
 		0449AFD11E8362120071E9E8 /* FengYingJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FengYingJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0449AFD51E8362120071E9E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0449AFD71E8362120071E9E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +64,28 @@
 		0449AFF51E8362130071E9E8 /* FengYingJieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FengYingJieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0449AFF91E8362130071E9E8 /* FengYingJieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FengYingJieUITests.m; sourceTree = "<group>"; };
 		0449AFFB1E8362130071E9E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0449B0071E83645D0071E9E8 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		0449B0091E8368680071E9E8 /* UIViewController+FYJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FYJViewController.h"; sourceTree = "<group>"; };
+		0449B00A1E8368680071E9E8 /* UIViewController+FYJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FYJViewController.m"; sourceTree = "<group>"; };
+		0449B1191E8372990071E9E8 /* FYJTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYJTextViewController.h; sourceTree = "<group>"; };
+		0449B11A1E8372990071E9E8 /* FYJTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYJTextViewController.m; sourceTree = "<group>"; };
+		0449B11C1E837DFF0071E9E8 /* FYJTheConstellationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYJTheConstellationViewController.h; sourceTree = "<group>"; };
+		0449B11D1E837DFF0071E9E8 /* FYJTheConstellationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYJTheConstellationViewController.m; sourceTree = "<group>"; };
+		0449B11E1E837DFF0071E9E8 /* FYJTheConstellationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYJTheConstellationViewController.xib; sourceTree = "<group>"; };
+		0449B1221E837EA60071E9E8 /* WZBDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZBDatePicker.h; sourceTree = "<group>"; };
+		0449B1231E837EA60071E9E8 /* WZBDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZBDatePicker.m; sourceTree = "<group>"; };
+		0477E8811E851A88001AC4DF /* TheIunarCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheIunarCalendarViewController.h; sourceTree = "<group>"; };
+		0477E8821E851A88001AC4DF /* TheIunarCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheIunarCalendarViewController.m; sourceTree = "<group>"; };
+		0477E8831E851A88001AC4DF /* TheIunarCalendarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TheIunarCalendarViewController.xib; sourceTree = "<group>"; };
+		0477E8861E851D54001AC4DF /* CalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarCell.h; sourceTree = "<group>"; };
+		0477E8871E851D54001AC4DF /* CalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarCell.m; sourceTree = "<group>"; };
+		0477E8881E851D54001AC4DF /* CalendarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarCell.xib; sourceTree = "<group>"; };
+		04C2123F1E8A132200F7016C /* UICalender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICalender.h; sourceTree = "<group>"; };
+		04C212401E8A132200F7016C /* UICalender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICalender.m; sourceTree = "<group>"; };
+		04C212421E8A137E00F7016C /* DataCalender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCalender.h; sourceTree = "<group>"; };
+		04C212431E8A137E00F7016C /* DataCalender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCalender.m; sourceTree = "<group>"; };
+		93DF659C65B607F8A2E00C2C /* Pods-FengYingJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FengYingJie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FengYingJie/Pods-FengYingJie.debug.xcconfig"; sourceTree = "<group>"; };
+		DC4BEB686ACB258742E917D3 /* Pods_FengYingJie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FengYingJie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35A82DBAD58B84690D326BEE /* Pods_FengYingJie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +121,8 @@
 				0449AFED1E8362130071E9E8 /* FengYingJieTests */,
 				0449AFF81E8362130071E9E8 /* FengYingJieUITests */,
 				0449AFD21E8362120071E9E8 /* Products */,
+				614873AA2B6F69D6D795F298 /* Pods */,
+				2AA877081613BC8AB30C1676 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,10 +143,14 @@
 				0449AFD81E8362120071E9E8 /* AppDelegate.m */,
 				0449AFDA1E8362120071E9E8 /* ViewController.h */,
 				0449AFDB1E8362120071E9E8 /* ViewController.m */,
+				0449B1181E83727F0071E9E8 /* 文字 */,
 				0449AFDD1E8362120071E9E8 /* Main.storyboard */,
+				0477E87D1E85167B001AC4DF /* Model */,
 				0449AFE01E8362120071E9E8 /* Assets.xcassets */,
 				0449AFE21E8362120071E9E8 /* LaunchScreen.storyboard */,
+				0449B0071E83645D0071E9E8 /* Header.h */,
 				0449AFE51E8362120071E9E8 /* Info.plist */,
+				0449B0081E8368340071E9E8 /* Base */,
 				0449AFD41E8362120071E9E8 /* Supporting Files */,
 			);
 			path = FengYingJie;
@@ -117,6 +159,7 @@
 		0449AFD41E8362120071E9E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0449B1211E837EA60071E9E8 /* WZBDatePicker */,
 				0449AFD51E8362120071E9E8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +183,70 @@
 			path = FengYingJieUITests;
 			sourceTree = "<group>";
 		};
+		0449B0081E8368340071E9E8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0449B0091E8368680071E9E8 /* UIViewController+FYJViewController.h */,
+				0449B00A1E8368680071E9E8 /* UIViewController+FYJViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		0449B1181E83727F0071E9E8 /* 文字 */ = {
+			isa = PBXGroup;
+			children = (
+				0449B1191E8372990071E9E8 /* FYJTextViewController.h */,
+				0449B11A1E8372990071E9E8 /* FYJTextViewController.m */,
+				0449B11C1E837DFF0071E9E8 /* FYJTheConstellationViewController.h */,
+				0449B11D1E837DFF0071E9E8 /* FYJTheConstellationViewController.m */,
+				0449B11E1E837DFF0071E9E8 /* FYJTheConstellationViewController.xib */,
+				0477E8811E851A88001AC4DF /* TheIunarCalendarViewController.h */,
+				0477E8821E851A88001AC4DF /* TheIunarCalendarViewController.m */,
+				0477E8831E851A88001AC4DF /* TheIunarCalendarViewController.xib */,
+				0477E8861E851D54001AC4DF /* CalendarCell.h */,
+				0477E8871E851D54001AC4DF /* CalendarCell.m */,
+				0477E8881E851D54001AC4DF /* CalendarCell.xib */,
+				04C2123F1E8A132200F7016C /* UICalender.h */,
+				04C212401E8A132200F7016C /* UICalender.m */,
+				04C212421E8A137E00F7016C /* DataCalender.h */,
+				04C212431E8A137E00F7016C /* DataCalender.m */,
+			);
+			name = "文字";
+			sourceTree = "<group>";
+		};
+		0449B1211E837EA60071E9E8 /* WZBDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				0449B1221E837EA60071E9E8 /* WZBDatePicker.h */,
+				0449B1231E837EA60071E9E8 /* WZBDatePicker.m */,
+			);
+			path = WZBDatePicker;
+			sourceTree = "<group>";
+		};
+		0477E87D1E85167B001AC4DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2AA877081613BC8AB30C1676 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC4BEB686ACB258742E917D3 /* Pods_FengYingJie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		614873AA2B6F69D6D795F298 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93DF659C65B607F8A2E00C2C /* Pods-FengYingJie.debug.xcconfig */,
+				03827EE5890C86F6AD593E7D /* Pods-FengYingJie.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0449AFFE1E8362130071E9E8 /* Build configuration list for PBXNativeTarget "FengYingJie" */;
 			buildPhases = (
+				611BC2FC0C373601663AB34F /* [CP] Check Pods Manifest.lock */,
 				0449AFCD1E8362120071E9E8 /* Sources */,
 				0449AFCE1E8362120071E9E8 /* Frameworks */,
 				0449AFCF1E8362120071E9E8 /* Resources */,
+				8C83D7F4CB02FDAA83946889 /* [CP] Embed Pods Frameworks */,
+				CF4806B787DDB58EDA587FE5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,7 +358,10 @@
 			files = (
 				0449AFE41E8362120071E9E8 /* LaunchScreen.storyboard in Resources */,
 				0449AFE11E8362120071E9E8 /* Assets.xcassets in Resources */,
+				0477E8851E851A88001AC4DF /* TheIunarCalendarViewController.xib in Resources */,
+				0449B1201E837DFF0071E9E8 /* FYJTheConstellationViewController.xib in Resources */,
 				0449AFDF1E8362120071E9E8 /* Main.storyboard in Resources */,
+				0477E88A1E851D54001AC4DF /* CalendarCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +381,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		611BC2FC0C373601663AB34F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C83D7F4CB02FDAA83946889 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FengYingJie/Pods-FengYingJie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF4806B787DDB58EDA587FE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FengYingJie/Pods-FengYingJie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0449AFCD1E8362120071E9E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0477E8841E851A88001AC4DF /* TheIunarCalendarViewController.m in Sources */,
+				0449B1241E837EA60071E9E8 /* WZBDatePicker.m in Sources */,
+				0449B11F1E837DFF0071E9E8 /* FYJTheConstellationViewController.m in Sources */,
 				0449AFDC1E8362120071E9E8 /* ViewController.m in Sources */,
 				0449AFD91E8362120071E9E8 /* AppDelegate.m in Sources */,
 				0449AFD61E8362120071E9E8 /* main.m in Sources */,
+				04C212411E8A132200F7016C /* UICalender.m in Sources */,
+				0449B00B1E8368680071E9E8 /* UIViewController+FYJViewController.m in Sources */,
+				04C212441E8A137E00F7016C /* DataCalender.m in Sources */,
+				0449B11B1E8372990071E9E8 /* FYJTextViewController.m in Sources */,
+				0477E8891E851D54001AC4DF /* CalendarCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,23 +591,35 @@
 		};
 		0449AFFF1E8362130071E9E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93DF659C65B607F8A2E00C2C /* Pods-FengYingJie.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Mac/Desktop/FengYingJie/FengYingJie/Header.h;
 				INFOPLIST_FILE = FengYingJie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "FYJ-Dreamweaver.FengYingJie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
 		0449B0001E8362130071E9E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03827EE5890C86F6AD593E7D /* Pods-FengYingJie.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Mac/Desktop/FengYingJie/FengYingJie/Header.h;
 				INFOPLIST_FILE = FengYingJie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "FYJ-Dreamweaver.FengYingJie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
@@ -507,6 +688,7 @@
 				0449B0001E8362130071E9E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0449B0011E8362130071E9E8 /* Build configuration list for PBXNativeTarget "FengYingJieTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +697,7 @@
 				0449B0031E8362130071E9E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0449B0041E8362130071E9E8 /* Build configuration list for PBXNativeTarget "FengYingJieUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +706,7 @@
 				0449B0061E8362130071E9E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

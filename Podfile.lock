@@ -1,0 +1,20 @@
+PODS:
+  - IQKeyboardManager (4.0.8)
+  - SDAutoLayout (2.1.7)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - IQKeyboardManager (~> 4.0.5)
+  - SDAutoLayout (~> 2.1.7)
+  - YYKit
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 1a8189fa153bf09044355ee0ad36826f6767e7f7
+  SDAutoLayout: e9b36d04b8c0b504762a04d76fbbe5108944297a
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 7dcbbd16afeb72c666940c1f681611b8a5b16c9a
+
+COCOAPODS: 1.1.1
