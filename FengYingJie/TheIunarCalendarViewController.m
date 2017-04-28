@@ -20,14 +20,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 
-//    DataCalender *dataCalend = [[DataCalender alloc] init];
-//    dataCalend.frame = self.view.bounds;
-//    [self.view addSubview:dataCalend];
-    
+    self.title = @"二十四气节日历";
     NSDate *date = [NSDate date];
     UICalender *ca = [[UICalender alloc] initWithCurrentDate:date];
     ca.frame = CGRectMake(0, 64, DeviceWidth, self.view.bounds.size.height - 64);
-    
     [self.view addSubview:ca];
 
 }

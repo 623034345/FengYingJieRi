@@ -7,16 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041DE9AD1E9CBEF900C00502 /* UIView+ZJFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DE99D1E9CBEF900C00502 /* UIView+ZJFrame.m */; };
+		041DE9AE1E9CBEF900C00502 /* UIViewController+ZJScrollPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DE99F1E9CBEF900C00502 /* UIViewController+ZJScrollPageController.m */; };
+		041DE9AF1E9CBEF900C00502 /* ZJCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DE9A11E9CBEF900C00502 /* ZJCollectionView.m */; };
+		041DE9B01E9CBEF900C00502 /* ZJContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DE9A31E9CBEF900C00502 /* ZJContentView.m */; };
+		041DE9B11E9CBEF900C00502 /* ZJScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DE9A51E9CBEF900C00502 /* ZJScrollPageView.m */; };
+		041DE9B21E9CBEF900C00502 /* ZJScrollSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DE9A81E9CBEF900C00502 /* ZJScrollSegmentView.m */; };
+		041DE9B31E9CBEF900C00502 /* ZJSegmentStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DE9AA1E9CBEF900C00502 /* ZJSegmentStyle.m */; };
+		041DE9B41E9CBEF900C00502 /* ZJTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DE9AC1E9CBEF900C00502 /* ZJTitleView.m */; };
+		041DE9B81E9CBF5500C00502 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DE9B71E9CBF5500C00502 /* PlayViewController.m */; };
+		041DE9BF1E9CC08500C00502 /* ZJPageCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DE9BA1E9CC08500C00502 /* ZJPageCollectionViewController.m */; };
+		041DE9C01E9CC08500C00502 /* ZJPageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DE9BC1E9CC08500C00502 /* ZJPageTableViewController.m */; };
+		041DE9C11E9CC08500C00502 /* ZJPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DE9BE1E9CC08500C00502 /* ZJPageViewController.m */; };
+		0424AD031EA9D56A00729350 /* HealthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0424AD021EA9D56A00729350 /* HealthViewController.m */; };
+		0424AD051EA9DADF00729350 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0424AD041EA9DADF00729350 /* HealthKit.framework */; };
+		0424AD081EA9E9EB00729350 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0424AD071EA9E9EA00729350 /* CoreGraphics.framework */; };
+		0424AD0A1EA9E9F400729350 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0424AD091EA9E9F400729350 /* CoreMotion.framework */; };
+		0424AD131EA9F2B500729350 /* HealthKitManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0424AD121EA9F2B500729350 /* HealthKitManage.m */; };
+		0424AD161EA9FDF500729350 /* CHHealthKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0424AD151EA9FDF500729350 /* CHHealthKitManager.m */; };
 		0449AFD61E8362120071E9E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449AFD51E8362120071E9E8 /* main.m */; };
 		0449AFD91E8362120071E9E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449AFD81E8362120071E9E8 /* AppDelegate.m */; };
-		0449AFDC1E8362120071E9E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449AFDB1E8362120071E9E8 /* ViewController.m */; };
-		0449AFDF1E8362120071E9E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0449AFDD1E8362120071E9E8 /* Main.storyboard */; };
 		0449AFE11E8362120071E9E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0449AFE01E8362120071E9E8 /* Assets.xcassets */; };
 		0449AFE41E8362120071E9E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0449AFE21E8362120071E9E8 /* LaunchScreen.storyboard */; };
 		0449AFEF1E8362130071E9E8 /* FengYingJieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449AFEE1E8362130071E9E8 /* FengYingJieTests.m */; };
 		0449AFFA1E8362130071E9E8 /* FengYingJieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449AFF91E8362130071E9E8 /* FengYingJieUITests.m */; };
 		0449B00B1E8368680071E9E8 /* UIViewController+FYJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449B00A1E8368680071E9E8 /* UIViewController+FYJViewController.m */; };
-		0449B11B1E8372990071E9E8 /* FYJTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449B11A1E8372990071E9E8 /* FYJTextViewController.m */; };
 		0449B11F1E837DFF0071E9E8 /* FYJTheConstellationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449B11D1E837DFF0071E9E8 /* FYJTheConstellationViewController.m */; };
 		0449B1201E837DFF0071E9E8 /* FYJTheConstellationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0449B11E1E837DFF0071E9E8 /* FYJTheConstellationViewController.xib */; };
 		0449B1241E837EA60071E9E8 /* WZBDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449B1231E837EA60071E9E8 /* WZBDatePicker.m */; };
@@ -24,8 +39,13 @@
 		0477E8851E851A88001AC4DF /* TheIunarCalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0477E8831E851A88001AC4DF /* TheIunarCalendarViewController.xib */; };
 		0477E8891E851D54001AC4DF /* CalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E8871E851D54001AC4DF /* CalendarCell.m */; };
 		0477E88A1E851D54001AC4DF /* CalendarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0477E8881E851D54001AC4DF /* CalendarCell.xib */; };
+		04A3F7541E9F19DE00E1E542 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A3F7531E9F19DE00E1E542 /* NetworkExtension.framework */; };
+		04A3F7581E9F1A8300E1E542 /* VPNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3F7571E9F1A8300E1E542 /* VPNViewController.m */; };
 		04C212411E8A132200F7016C /* UICalender.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C212401E8A132200F7016C /* UICalender.m */; };
 		04C212441E8A137E00F7016C /* DataCalender.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C212431E8A137E00F7016C /* DataCalender.m */; };
+		04C212471E8A45B200F7016C /* YJBirthday.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C212461E8A45B200F7016C /* YJBirthday.m */; };
+		04CFF7A91E8B4EDC00CE576F /* YJWiFiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFF7A81E8B4EDC00CE576F /* YJWiFiViewController.m */; };
+		04EDF8C61EA5C6CE0072B86F /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EDF8C51EA5C6CE0072B86F /* BaseNavigationController.m */; };
 		35A82DBAD58B84690D326BEE /* Pods_FengYingJie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4BEB686ACB258742E917D3 /* Pods_FengYingJie.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,13 +68,45 @@
 
 /* Begin PBXFileReference section */
 		03827EE5890C86F6AD593E7D /* Pods-FengYingJie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FengYingJie.release.xcconfig"; path = "Pods/Target Support Files/Pods-FengYingJie/Pods-FengYingJie.release.xcconfig"; sourceTree = "<group>"; };
+		041DE99C1E9CBEF900C00502 /* UIView+ZJFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZJFrame.h"; sourceTree = "<group>"; };
+		041DE99D1E9CBEF900C00502 /* UIView+ZJFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZJFrame.m"; sourceTree = "<group>"; };
+		041DE99E1E9CBEF900C00502 /* UIViewController+ZJScrollPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZJScrollPageController.h"; sourceTree = "<group>"; };
+		041DE99F1E9CBEF900C00502 /* UIViewController+ZJScrollPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZJScrollPageController.m"; sourceTree = "<group>"; };
+		041DE9A01E9CBEF900C00502 /* ZJCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCollectionView.h; sourceTree = "<group>"; };
+		041DE9A11E9CBEF900C00502 /* ZJCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCollectionView.m; sourceTree = "<group>"; };
+		041DE9A21E9CBEF900C00502 /* ZJContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJContentView.h; sourceTree = "<group>"; };
+		041DE9A31E9CBEF900C00502 /* ZJContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJContentView.m; sourceTree = "<group>"; };
+		041DE9A41E9CBEF900C00502 /* ZJScrollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollPageView.h; sourceTree = "<group>"; };
+		041DE9A51E9CBEF900C00502 /* ZJScrollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJScrollPageView.m; sourceTree = "<group>"; };
+		041DE9A61E9CBEF900C00502 /* ZJScrollPageViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollPageViewDelegate.h; sourceTree = "<group>"; };
+		041DE9A71E9CBEF900C00502 /* ZJScrollSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollSegmentView.h; sourceTree = "<group>"; };
+		041DE9A81E9CBEF900C00502 /* ZJScrollSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJScrollSegmentView.m; sourceTree = "<group>"; };
+		041DE9A91E9CBEF900C00502 /* ZJSegmentStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSegmentStyle.h; sourceTree = "<group>"; };
+		041DE9AA1E9CBEF900C00502 /* ZJSegmentStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSegmentStyle.m; sourceTree = "<group>"; };
+		041DE9AB1E9CBEF900C00502 /* ZJTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTitleView.h; sourceTree = "<group>"; };
+		041DE9AC1E9CBEF900C00502 /* ZJTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTitleView.m; sourceTree = "<group>"; };
+		041DE9B61E9CBF5500C00502 /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		041DE9B71E9CBF5500C00502 /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		041DE9B91E9CC08500C00502 /* ZJPageCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPageCollectionViewController.h; sourceTree = "<group>"; };
+		041DE9BA1E9CC08500C00502 /* ZJPageCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPageCollectionViewController.m; sourceTree = "<group>"; };
+		041DE9BB1E9CC08500C00502 /* ZJPageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPageTableViewController.h; sourceTree = "<group>"; };
+		041DE9BC1E9CC08500C00502 /* ZJPageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPageTableViewController.m; sourceTree = "<group>"; };
+		041DE9BD1E9CC08500C00502 /* ZJPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPageViewController.h; sourceTree = "<group>"; };
+		041DE9BE1E9CC08500C00502 /* ZJPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPageViewController.m; sourceTree = "<group>"; };
+		0424AD011EA9D56A00729350 /* HealthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthViewController.h; sourceTree = "<group>"; };
+		0424AD021EA9D56A00729350 /* HealthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthViewController.m; sourceTree = "<group>"; };
+		0424AD041EA9DADF00729350 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		0424AD061EA9DADF00729350 /* FengYingJie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FengYingJie.entitlements; sourceTree = "<group>"; };
+		0424AD071EA9E9EA00729350 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0424AD091EA9E9F400729350 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		0424AD111EA9F2B500729350 /* HealthKitManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthKitManage.h; sourceTree = "<group>"; };
+		0424AD121EA9F2B500729350 /* HealthKitManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthKitManage.m; sourceTree = "<group>"; };
+		0424AD141EA9FDF500729350 /* CHHealthKitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHHealthKitManager.h; sourceTree = "<group>"; };
+		0424AD151EA9FDF500729350 /* CHHealthKitManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHHealthKitManager.m; sourceTree = "<group>"; };
 		0449AFD11E8362120071E9E8 /* FengYingJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FengYingJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0449AFD51E8362120071E9E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0449AFD71E8362120071E9E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0449AFD81E8362120071E9E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0449AFDA1E8362120071E9E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0449AFDB1E8362120071E9E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0449AFDE1E8362120071E9E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0449AFE01E8362120071E9E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0449AFE31E8362120071E9E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0449AFE51E8362120071E9E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,11 +116,8 @@
 		0449AFF51E8362130071E9E8 /* FengYingJieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FengYingJieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0449AFF91E8362130071E9E8 /* FengYingJieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FengYingJieUITests.m; sourceTree = "<group>"; };
 		0449AFFB1E8362130071E9E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0449B0071E83645D0071E9E8 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		0449B0091E8368680071E9E8 /* UIViewController+FYJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FYJViewController.h"; sourceTree = "<group>"; };
 		0449B00A1E8368680071E9E8 /* UIViewController+FYJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FYJViewController.m"; sourceTree = "<group>"; };
-		0449B1191E8372990071E9E8 /* FYJTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYJTextViewController.h; sourceTree = "<group>"; };
-		0449B11A1E8372990071E9E8 /* FYJTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYJTextViewController.m; sourceTree = "<group>"; };
 		0449B11C1E837DFF0071E9E8 /* FYJTheConstellationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYJTheConstellationViewController.h; sourceTree = "<group>"; };
 		0449B11D1E837DFF0071E9E8 /* FYJTheConstellationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYJTheConstellationViewController.m; sourceTree = "<group>"; };
 		0449B11E1E837DFF0071E9E8 /* FYJTheConstellationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYJTheConstellationViewController.xib; sourceTree = "<group>"; };
@@ -80,10 +129,20 @@
 		0477E8861E851D54001AC4DF /* CalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarCell.h; sourceTree = "<group>"; };
 		0477E8871E851D54001AC4DF /* CalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarCell.m; sourceTree = "<group>"; };
 		0477E8881E851D54001AC4DF /* CalendarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarCell.xib; sourceTree = "<group>"; };
+		0478766E1E8CEA5000252CF8 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		04A3F7531E9F19DE00E1E542 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		04A3F7561E9F1A8300E1E542 /* VPNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPNViewController.h; sourceTree = "<group>"; };
+		04A3F7571E9F1A8300E1E542 /* VPNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPNViewController.m; sourceTree = "<group>"; };
 		04C2123F1E8A132200F7016C /* UICalender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICalender.h; sourceTree = "<group>"; };
 		04C212401E8A132200F7016C /* UICalender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICalender.m; sourceTree = "<group>"; };
 		04C212421E8A137E00F7016C /* DataCalender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCalender.h; sourceTree = "<group>"; };
 		04C212431E8A137E00F7016C /* DataCalender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCalender.m; sourceTree = "<group>"; };
+		04C212451E8A45B200F7016C /* YJBirthday.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJBirthday.h; sourceTree = "<group>"; };
+		04C212461E8A45B200F7016C /* YJBirthday.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJBirthday.m; sourceTree = "<group>"; };
+		04CFF7A71E8B4EDC00CE576F /* YJWiFiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJWiFiViewController.h; sourceTree = "<group>"; };
+		04CFF7A81E8B4EDC00CE576F /* YJWiFiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJWiFiViewController.m; sourceTree = "<group>"; };
+		04EDF8C41EA5C6CE0072B86F /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		04EDF8C51EA5C6CE0072B86F /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		93DF659C65B607F8A2E00C2C /* Pods-FengYingJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FengYingJie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FengYingJie/Pods-FengYingJie.debug.xcconfig"; sourceTree = "<group>"; };
 		DC4BEB686ACB258742E917D3 /* Pods_FengYingJie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FengYingJie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -93,6 +152,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0424AD0A1EA9E9F400729350 /* CoreMotion.framework in Frameworks */,
+				0424AD081EA9E9EB00729350 /* CoreGraphics.framework in Frameworks */,
+				0424AD051EA9DADF00729350 /* HealthKit.framework in Frameworks */,
+				04A3F7541E9F19DE00E1E542 /* NetworkExtension.framework in Frameworks */,
 				35A82DBAD58B84690D326BEE /* Pods_FengYingJie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -114,6 +177,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041DE99B1E9CBEF900C00502 /* ZJScrollPageView */ = {
+			isa = PBXGroup;
+			children = (
+				041DE99C1E9CBEF900C00502 /* UIView+ZJFrame.h */,
+				041DE99D1E9CBEF900C00502 /* UIView+ZJFrame.m */,
+				041DE99E1E9CBEF900C00502 /* UIViewController+ZJScrollPageController.h */,
+				041DE99F1E9CBEF900C00502 /* UIViewController+ZJScrollPageController.m */,
+				041DE9A01E9CBEF900C00502 /* ZJCollectionView.h */,
+				041DE9A11E9CBEF900C00502 /* ZJCollectionView.m */,
+				041DE9A21E9CBEF900C00502 /* ZJContentView.h */,
+				041DE9A31E9CBEF900C00502 /* ZJContentView.m */,
+				041DE9A41E9CBEF900C00502 /* ZJScrollPageView.h */,
+				041DE9A51E9CBEF900C00502 /* ZJScrollPageView.m */,
+				041DE9A61E9CBEF900C00502 /* ZJScrollPageViewDelegate.h */,
+				041DE9A71E9CBEF900C00502 /* ZJScrollSegmentView.h */,
+				041DE9A81E9CBEF900C00502 /* ZJScrollSegmentView.m */,
+				041DE9A91E9CBEF900C00502 /* ZJSegmentStyle.h */,
+				041DE9AA1E9CBEF900C00502 /* ZJSegmentStyle.m */,
+				041DE9AB1E9CBEF900C00502 /* ZJTitleView.h */,
+				041DE9AC1E9CBEF900C00502 /* ZJTitleView.m */,
+			);
+			path = ZJScrollPageView;
+			sourceTree = "<group>";
+		};
+		041DE9B51E9CBF1C00C00502 /* 玩玩 */ = {
+			isa = PBXGroup;
+			children = (
+				041DE9B91E9CC08500C00502 /* ZJPageCollectionViewController.h */,
+				041DE9BA1E9CC08500C00502 /* ZJPageCollectionViewController.m */,
+				041DE9BB1E9CC08500C00502 /* ZJPageTableViewController.h */,
+				041DE9BC1E9CC08500C00502 /* ZJPageTableViewController.m */,
+				041DE9BD1E9CC08500C00502 /* ZJPageViewController.h */,
+				041DE9BE1E9CC08500C00502 /* ZJPageViewController.m */,
+				041DE9B61E9CBF5500C00502 /* PlayViewController.h */,
+				041DE9B71E9CBF5500C00502 /* PlayViewController.m */,
+			);
+			name = "玩玩";
+			sourceTree = "<group>";
+		};
+		0424AD001EA9D55300729350 /* 健康 */ = {
+			isa = PBXGroup;
+			children = (
+				0424AD011EA9D56A00729350 /* HealthViewController.h */,
+				0424AD021EA9D56A00729350 /* HealthViewController.m */,
+				0424AD111EA9F2B500729350 /* HealthKitManage.h */,
+				0424AD121EA9F2B500729350 /* HealthKitManage.m */,
+				0424AD141EA9FDF500729350 /* CHHealthKitManager.h */,
+				0424AD151EA9FDF500729350 /* CHHealthKitManager.m */,
+				0463A6B61EADD49500EB71A8 /* 防作弊 */,
+			);
+			name = "健康";
+			sourceTree = "<group>";
+		};
 		0449AFC81E8362120071E9E8 = {
 			isa = PBXGroup;
 			children = (
@@ -139,17 +255,21 @@
 		0449AFD31E8362120071E9E8 /* FengYingJie */ = {
 			isa = PBXGroup;
 			children = (
+				0424AD061EA9DADF00729350 /* FengYingJie.entitlements */,
 				0449AFD71E8362120071E9E8 /* AppDelegate.h */,
 				0449AFD81E8362120071E9E8 /* AppDelegate.m */,
-				0449AFDA1E8362120071E9E8 /* ViewController.h */,
-				0449AFDB1E8362120071E9E8 /* ViewController.m */,
+				0424AD001EA9D55300729350 /* 健康 */,
+				04A3F7551E9F1A7500E1E542 /* VPN */,
+				041DE9B51E9CBF1C00C00502 /* 玩玩 */,
+				04CFF7A61E8B4EB300CE576F /* WIFi */,
 				0449B1181E83727F0071E9E8 /* 文字 */,
-				0449AFDD1E8362120071E9E8 /* Main.storyboard */,
 				0477E87D1E85167B001AC4DF /* Model */,
 				0449AFE01E8362120071E9E8 /* Assets.xcassets */,
 				0449AFE21E8362120071E9E8 /* LaunchScreen.storyboard */,
-				0449B0071E83645D0071E9E8 /* Header.h */,
+				04EDF8C41EA5C6CE0072B86F /* BaseNavigationController.h */,
+				04EDF8C51EA5C6CE0072B86F /* BaseNavigationController.m */,
 				0449AFE51E8362120071E9E8 /* Info.plist */,
+				0478766E1E8CEA5000252CF8 /* Header.h */,
 				0449B0081E8368340071E9E8 /* Base */,
 				0449AFD41E8362120071E9E8 /* Supporting Files */,
 			);
@@ -159,6 +279,7 @@
 		0449AFD41E8362120071E9E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				041DE99B1E9CBEF900C00502 /* ZJScrollPageView */,
 				0449B1211E837EA60071E9E8 /* WZBDatePicker */,
 				0449AFD51E8362120071E9E8 /* main.m */,
 			);
@@ -195,8 +316,6 @@
 		0449B1181E83727F0071E9E8 /* 文字 */ = {
 			isa = PBXGroup;
 			children = (
-				0449B1191E8372990071E9E8 /* FYJTextViewController.h */,
-				0449B11A1E8372990071E9E8 /* FYJTextViewController.m */,
 				0449B11C1E837DFF0071E9E8 /* FYJTheConstellationViewController.h */,
 				0449B11D1E837DFF0071E9E8 /* FYJTheConstellationViewController.m */,
 				0449B11E1E837DFF0071E9E8 /* FYJTheConstellationViewController.xib */,
@@ -210,6 +329,8 @@
 				04C212401E8A132200F7016C /* UICalender.m */,
 				04C212421E8A137E00F7016C /* DataCalender.h */,
 				04C212431E8A137E00F7016C /* DataCalender.m */,
+				04C212451E8A45B200F7016C /* YJBirthday.h */,
+				04C212461E8A45B200F7016C /* YJBirthday.m */,
 			);
 			name = "文字";
 			sourceTree = "<group>";
@@ -223,6 +344,13 @@
 			path = WZBDatePicker;
 			sourceTree = "<group>";
 		};
+		0463A6B61EADD49500EB71A8 /* 防作弊 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "防作弊";
+			sourceTree = "<group>";
+		};
 		0477E87D1E85167B001AC4DF /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,9 +358,31 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		04A3F7551E9F1A7500E1E542 /* VPN */ = {
+			isa = PBXGroup;
+			children = (
+				04A3F7561E9F1A8300E1E542 /* VPNViewController.h */,
+				04A3F7571E9F1A8300E1E542 /* VPNViewController.m */,
+			);
+			name = VPN;
+			sourceTree = "<group>";
+		};
+		04CFF7A61E8B4EB300CE576F /* WIFi */ = {
+			isa = PBXGroup;
+			children = (
+				04CFF7A71E8B4EDC00CE576F /* YJWiFiViewController.h */,
+				04CFF7A81E8B4EDC00CE576F /* YJWiFiViewController.m */,
+			);
+			name = WIFi;
+			sourceTree = "<group>";
+		};
 		2AA877081613BC8AB30C1676 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0424AD091EA9E9F400729350 /* CoreMotion.framework */,
+				0424AD071EA9E9EA00729350 /* CoreGraphics.framework */,
+				0424AD041EA9DADF00729350 /* HealthKit.framework */,
+				04A3F7531E9F19DE00E1E542 /* NetworkExtension.framework */,
 				DC4BEB686ACB258742E917D3 /* Pods_FengYingJie.framework */,
 			);
 			name = Frameworks;
@@ -317,7 +467,13 @@
 				TargetAttributes = {
 					0449AFD01E8362120071E9E8 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G3PWG2CJ46;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					0449AFE91E8362130071E9E8 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -360,7 +516,6 @@
 				0449AFE11E8362120071E9E8 /* Assets.xcassets in Resources */,
 				0477E8851E851A88001AC4DF /* TheIunarCalendarViewController.xib in Resources */,
 				0449B1201E837DFF0071E9E8 /* FYJTheConstellationViewController.xib in Resources */,
-				0449AFDF1E8362120071E9E8 /* Main.storyboard in Resources */,
 				0477E88A1E851D54001AC4DF /* CalendarCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,16 +589,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041DE9AD1E9CBEF900C00502 /* UIView+ZJFrame.m in Sources */,
+				041DE9C11E9CC08500C00502 /* ZJPageViewController.m in Sources */,
+				041DE9B41E9CBEF900C00502 /* ZJTitleView.m in Sources */,
 				0477E8841E851A88001AC4DF /* TheIunarCalendarViewController.m in Sources */,
 				0449B1241E837EA60071E9E8 /* WZBDatePicker.m in Sources */,
+				0424AD031EA9D56A00729350 /* HealthViewController.m in Sources */,
 				0449B11F1E837DFF0071E9E8 /* FYJTheConstellationViewController.m in Sources */,
-				0449AFDC1E8362120071E9E8 /* ViewController.m in Sources */,
+				04EDF8C61EA5C6CE0072B86F /* BaseNavigationController.m in Sources */,
+				041DE9B01E9CBEF900C00502 /* ZJContentView.m in Sources */,
+				041DE9B11E9CBEF900C00502 /* ZJScrollPageView.m in Sources */,
+				041DE9AF1E9CBEF900C00502 /* ZJCollectionView.m in Sources */,
 				0449AFD91E8362120071E9E8 /* AppDelegate.m in Sources */,
+				04A3F7581E9F1A8300E1E542 /* VPNViewController.m in Sources */,
+				041DE9B21E9CBEF900C00502 /* ZJScrollSegmentView.m in Sources */,
+				0424AD131EA9F2B500729350 /* HealthKitManage.m in Sources */,
+				041DE9C01E9CC08500C00502 /* ZJPageTableViewController.m in Sources */,
+				041DE9B31E9CBEF900C00502 /* ZJSegmentStyle.m in Sources */,
+				041DE9BF1E9CC08500C00502 /* ZJPageCollectionViewController.m in Sources */,
+				04CFF7A91E8B4EDC00CE576F /* YJWiFiViewController.m in Sources */,
+				041DE9B81E9CBF5500C00502 /* PlayViewController.m in Sources */,
 				0449AFD61E8362120071E9E8 /* main.m in Sources */,
+				041DE9AE1E9CBEF900C00502 /* UIViewController+ZJScrollPageController.m in Sources */,
 				04C212411E8A132200F7016C /* UICalender.m in Sources */,
 				0449B00B1E8368680071E9E8 /* UIViewController+FYJViewController.m in Sources */,
+				0424AD161EA9FDF500729350 /* CHHealthKitManager.m in Sources */,
 				04C212441E8A137E00F7016C /* DataCalender.m in Sources */,
-				0449B11B1E8372990071E9E8 /* FYJTextViewController.m in Sources */,
+				04C212471E8A45B200F7016C /* YJBirthday.m in Sources */,
 				0477E8891E851D54001AC4DF /* CalendarCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,14 +652,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0449AFDD1E8362120071E9E8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0449AFDE1E8362120071E9E8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0449AFE21E8362120071E9E8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -595,13 +759,23 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FengYingJie/FengYingJie.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = G3PWG2CJ46;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/Mac/Desktop/FengYingJie/FengYingJie/Header.h;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/My-iDevice-Tools-master/**";
 				INFOPLIST_FILE = FengYingJie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FengYingJie/DingTalkDylib/Package/usr/lib",
+				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "FYJ-Dreamweaver.FengYingJie";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luohua.FengYingJie1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
@@ -612,13 +786,23 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FengYingJie/FengYingJie.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = G3PWG2CJ46;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/Mac/Desktop/FengYingJie/FengYingJie/Header.h;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/My-iDevice-Tools-master/**";
 				INFOPLIST_FILE = FengYingJie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FengYingJie/DingTalkDylib/Package/usr/lib",
+				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "FYJ-Dreamweaver.FengYingJie";
+				PRODUCT_BUNDLE_IDENTIFIER = com.luohua.FengYingJie1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;

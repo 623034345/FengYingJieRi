@@ -18,10 +18,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.title = @"计算星座和年龄";
     // Do any additional setup after loading the view from its nib.
+    self.TX.font = [UIFont systemFontOfSize:24];
     [WZBDatePicker showToView:self.TX pickerType:WZBDatePickerInputView resultDidChange:^(NSString *age, NSString *constellation){
         self.TX.text = [NSString stringWithFormat:@"%@--%@", age, constellation];
         self.TX.textColor = [UIColor blueColor];
+        
     }];
 }
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {

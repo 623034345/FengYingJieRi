@@ -53,14 +53,14 @@
         _dateCheckedView.clipsToBounds =YES;
         
         UIButton *cancelButton = [[UIButton alloc] initWithFrame:CGRectMake(20,10, 32,20)];
-        cancelButton.titleLabel.font = [UIFont boldSystemFontOfSize:16];
+        cancelButton.titleLabel.font = [UIFont boldSystemFontOfSize:12];
         [cancelButton setTitle:@"取消"forState:UIWindowLevelNormal];
         [cancelButton setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
         [cancelButton addTarget:self action:@selector(cancelSelectCurrentData)forControlEvents:UIControlEventTouchUpInside];
         [_dateCheckedView addSubview:cancelButton];
         
         UIButton *okButton = [[UIButton alloc]initWithFrame:CGRectMake(self.frame.size.width - 52, 10,32, 20)];
-        okButton.titleLabel.font = [UIFont boldSystemFontOfSize:16];
+        okButton.titleLabel.font = [UIFont boldSystemFontOfSize:12];
         [okButton setTitle:@"确定"forState:UIControlStateNormal];
         
         

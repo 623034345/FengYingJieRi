@@ -10,4 +10,5 @@
 
 @interface UIViewController (FYJViewController)
 -(void)getGeneral;
+-(void)alertControllerQue:(UIAlertAction*)seleced prompt:(NSString *)prompt msg:(NSString *)msgStr;
 @end
