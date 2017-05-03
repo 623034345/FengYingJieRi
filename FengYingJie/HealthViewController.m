@@ -11,7 +11,7 @@
 #import <UIKit/UIDevice.h>
 #import "HealthKitManage.h"
 #import "CHHealthKitManager.h"
-
+#import "VPNViewController.h"
 //#import "SetUpViewController.h"
 @interface HealthViewController ()<UITextFieldDelegate>{
     CHHealthKitManager *_manager;
@@ -67,7 +67,7 @@
     btn.layer.cornerRadius = 5;
     
     UIButton *btn1 = [UIButton buttonWithType:UIButtonTypeCustom];
-    btn1.frame = CGRectMake(0, HEIGHT - 50, WIDTH, 50);
+    btn1.frame = CGRectMake(0, HEIGHT - 100, WIDTH, 50);
     btn1.centerX = self.view.centerX;
     [btn1 setTitle:@"高仿走步" forState:UIControlStateNormal];
     [btn1 setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
@@ -112,7 +112,9 @@
 
 -(void)setUpBtn
 {
-    [self shua];
+    VPNViewController *vcv = [[VPNViewController alloc] init];
+    [self.navigationController pushViewController:vcv animated:YES];
+//    [self shua];
 
 }
 -(void)bushu

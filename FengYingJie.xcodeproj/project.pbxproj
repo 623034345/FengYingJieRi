@@ -39,6 +39,9 @@
 		0477E8851E851A88001AC4DF /* TheIunarCalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0477E8831E851A88001AC4DF /* TheIunarCalendarViewController.xib */; };
 		0477E8891E851D54001AC4DF /* CalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E8871E851D54001AC4DF /* CalendarCell.m */; };
 		0477E88A1E851D54001AC4DF /* CalendarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0477E8881E851D54001AC4DF /* CalendarCell.xib */; };
+		048679351EB97CB40006186F /* LCPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 048679301EB97CB40006186F /* LCPanGestureRecognizer.m */; };
+		048679361EB97CB40006186F /* LCPanNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048679321EB97CB40006186F /* LCPanNavigationController.m */; };
+		048679371EB97CB40006186F /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 048679341EB97CB40006186F /* UIView+Snapshot.m */; };
 		04A3F7541E9F19DE00E1E542 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A3F7531E9F19DE00E1E542 /* NetworkExtension.framework */; };
 		04A3F7581E9F1A8300E1E542 /* VPNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3F7571E9F1A8300E1E542 /* VPNViewController.m */; };
 		04C212411E8A132200F7016C /* UICalender.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C212401E8A132200F7016C /* UICalender.m */; };
@@ -130,6 +133,12 @@
 		0477E8871E851D54001AC4DF /* CalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarCell.m; sourceTree = "<group>"; };
 		0477E8881E851D54001AC4DF /* CalendarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarCell.xib; sourceTree = "<group>"; };
 		0478766E1E8CEA5000252CF8 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		0486792F1EB97CB40006186F /* LCPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPanGestureRecognizer.h; sourceTree = "<group>"; };
+		048679301EB97CB40006186F /* LCPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPanGestureRecognizer.m; sourceTree = "<group>"; };
+		048679311EB97CB40006186F /* LCPanNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPanNavigationController.h; sourceTree = "<group>"; };
+		048679321EB97CB40006186F /* LCPanNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPanNavigationController.m; sourceTree = "<group>"; };
+		048679331EB97CB40006186F /* UIView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapshot.h"; sourceTree = "<group>"; };
+		048679341EB97CB40006186F /* UIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
 		04A3F7531E9F19DE00E1E542 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		04A3F7561E9F1A8300E1E542 /* VPNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPNViewController.h; sourceTree = "<group>"; };
 		04A3F7571E9F1A8300E1E542 /* VPNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPNViewController.m; sourceTree = "<group>"; };
@@ -266,6 +275,7 @@
 				0477E87D1E85167B001AC4DF /* Model */,
 				0449AFE01E8362120071E9E8 /* Assets.xcassets */,
 				0449AFE21E8362120071E9E8 /* LaunchScreen.storyboard */,
+				0486792E1EB97CB40006186F /* PanNavigationController */,
 				04EDF8C41EA5C6CE0072B86F /* BaseNavigationController.h */,
 				04EDF8C51EA5C6CE0072B86F /* BaseNavigationController.m */,
 				0449AFE51E8362120071E9E8 /* Info.plist */,
@@ -356,6 +366,19 @@
 			children = (
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		0486792E1EB97CB40006186F /* PanNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				0486792F1EB97CB40006186F /* LCPanGestureRecognizer.h */,
+				048679301EB97CB40006186F /* LCPanGestureRecognizer.m */,
+				048679311EB97CB40006186F /* LCPanNavigationController.h */,
+				048679321EB97CB40006186F /* LCPanNavigationController.m */,
+				048679331EB97CB40006186F /* UIView+Snapshot.h */,
+				048679341EB97CB40006186F /* UIView+Snapshot.m */,
+			);
+			path = PanNavigationController;
 			sourceTree = "<group>";
 		};
 		04A3F7551E9F1A7500E1E542 /* VPN */ = {
@@ -590,6 +613,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				041DE9AD1E9CBEF900C00502 /* UIView+ZJFrame.m in Sources */,
+				048679371EB97CB40006186F /* UIView+Snapshot.m in Sources */,
 				041DE9C11E9CC08500C00502 /* ZJPageViewController.m in Sources */,
 				041DE9B41E9CBEF900C00502 /* ZJTitleView.m in Sources */,
 				0477E8841E851A88001AC4DF /* TheIunarCalendarViewController.m in Sources */,
@@ -607,8 +631,10 @@
 				041DE9C01E9CC08500C00502 /* ZJPageTableViewController.m in Sources */,
 				041DE9B31E9CBEF900C00502 /* ZJSegmentStyle.m in Sources */,
 				041DE9BF1E9CC08500C00502 /* ZJPageCollectionViewController.m in Sources */,
+				048679361EB97CB40006186F /* LCPanNavigationController.m in Sources */,
 				04CFF7A91E8B4EDC00CE576F /* YJWiFiViewController.m in Sources */,
 				041DE9B81E9CBF5500C00502 /* PlayViewController.m in Sources */,
+				048679351EB97CB40006186F /* LCPanGestureRecognizer.m in Sources */,
 				0449AFD61E8362120071E9E8 /* main.m in Sources */,
 				041DE9AE1E9CBEF900C00502 /* UIViewController+ZJScrollPageController.m in Sources */,
 				04C212411E8A132200F7016C /* UICalender.m in Sources */,

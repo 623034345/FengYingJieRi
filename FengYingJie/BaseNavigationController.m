@@ -7,7 +7,7 @@
 //
 
 #import "BaseNavigationController.h"
-
+#import "LCPanGestureRecognizer.h"
 @interface BaseNavigationController ()
 
 @end

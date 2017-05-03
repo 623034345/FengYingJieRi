@@ -16,6 +16,7 @@
 #import "HealthViewController.h"
 #import "BaseNavigationController.h"
 #import "HealthViewController.h"
+#import "LCPanNavigationController.h"
 @interface AppDelegate ()
 
 @end
@@ -43,7 +44,7 @@
 // 通过3dtouch菜单启动 后回调
 - (void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void (^)(BOOL))completionHandler{
     HealthViewController *vc = [[HealthViewController alloc] init];
-    BaseNavigationController *nav = [[BaseNavigationController alloc] initWithRootViewController:vc];
+    LCPanNavigationController *nav = [[LCPanNavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
 
     // 可以通过标题 字符串判断 来确认 是哪个item
@@ -102,7 +103,7 @@
         
         
         
-        BaseNavigationController *nav=[[BaseNavigationController alloc]initWithRootViewController:view];
+        LCPanNavigationController *nav=[[LCPanNavigationController alloc]initWithRootViewController:view];
         [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor grayColor]}];
         [navArr addObject:nav];
         
