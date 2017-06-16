@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SWRevealViewController.h"
 
 @interface HealthViewController : UIViewController
+@property (strong, nonatomic) SWRevealViewController *viewController;
 
 @end

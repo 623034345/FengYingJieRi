@@ -17,11 +17,17 @@
 #import "BaseNavigationController.h"
 #import "HealthViewController.h"
 #import "LCPanNavigationController.h"
+#import "SWRevealViewController.h"
+#import "LeftViewController.h"
+#import "HealthViewController.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
+@synthesize window = _window;
+@synthesize viewController = _viewController;
+
 - (void)setting3DTouchModule{
     // 判断系统版本大于9.0再设置 (若不判断 在低版本系统中会崩溃)
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0){
@@ -46,7 +52,7 @@
     HealthViewController *vc = [[HealthViewController alloc] init];
     LCPanNavigationController *nav = [[LCPanNavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
-
+    
     // 可以通过标题 字符串判断 来确认 是哪个item
     if ([shortcutItem.localizedTitle  isEqualToString: @"星座"])
     {
@@ -70,7 +76,7 @@
     self.window.rootViewController = viewController;
     
     [self.window makeKeyAndVisible];
-
+    
     [self setting3DTouchModule];
     
     [self loginHome];
@@ -80,14 +86,27 @@
 
 -(void)loginHome
 {
+    
+    
     FYJTheConstellationViewController *fvc = [[FYJTheConstellationViewController alloc] init];
     TheIunarCalendarViewController *tvc = [[TheIunarCalendarViewController alloc] init];
-    HealthViewController *yvc = [[HealthViewController alloc] init];
-    NSArray *tabbarImgs =[NSArray arrayWithObjects:@"健康",@"星座",@"日历", nil];
-    NSArray *tabbarSelectImgs =[NSArray arrayWithObjects:@"健康2",@"星座2",@"日历2", nil];
+    HealthViewController *hvc = [[HealthViewController alloc] init];
+    
+    LeftViewController *lvc = [[LeftViewController alloc] init];
+    
+    LCPanNavigationController *nav1 = [[LCPanNavigationController alloc]initWithRootViewController:hvc];
+    LCPanNavigationController *nav2 = [[LCPanNavigationController alloc]initWithRootViewController:lvc];
+    
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor grayColor]}];
+    [self pushToRealV:nav1 leftVC:nav2];
+    
+    
+    
+    NSArray *tabbarImgs = [NSArray arrayWithObjects:@"健康",@"星座",@"日历", nil];
+    NSArray *tabbarSelectImgs = [NSArray arrayWithObjects:@"健康2",@"星座2",@"日历2", nil];
     NSArray *titleArr = [NSArray arrayWithObjects:@"健康",@"星座",@"日历", nil];
-    NSArray *views =[NSArray arrayWithObjects:yvc,tvc,fvc, nil];
-    NSMutableArray *navArr =[[NSMutableArray alloc]initWithCapacity:0];
+    NSArray *views = [NSArray arrayWithObjects:self.viewController,tvc,fvc,nil];
+    NSMutableArray *navArr = [[NSMutableArray alloc] initWithCapacity:0];
     
     for (int i = 0; i < views.count; i++)
     {
@@ -100,21 +119,42 @@
         
         view.tabBarItem.imageInsets = UIEdgeInsetsMake(2, 0, -2, 0);
         [view.tabBarItem setTitlePositionAdjustment:UIOffsetMake(-2, -2)];
-        
-        
-        
-        LCPanNavigationController *nav=[[LCPanNavigationController alloc]initWithRootViewController:view];
-        [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor grayColor]}];
-        [navArr addObject:nav];
+        if (i == 0)
+        {
+            [navArr addObject:view];
+            
+        }
+        else
+        {
+            LCPanNavigationController *nav=[[LCPanNavigationController alloc]initWithRootViewController:view];
+            [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor grayColor]}];
+            
+            [navArr addObject:nav];
+        }
         
     }
-    
     
     UITabBarController *tabBarVContro =[[UITabBarController alloc]init];
     tabBarVContro.tabBar.tintColor = [UIColor blueColor];
     tabBarVContro.tabBar.opaque = YES;
-    tabBarVContro.viewControllers =navArr;
-    self.window.rootViewController =tabBarVContro;
+    tabBarVContro.viewControllers = navArr;
+    self.window.rootViewController = tabBarVContro;
+    
+}
+-(SWRevealViewController *)pushToRealV:(UINavigationController *)nav leftVC:(UINavigationController *)lvc
+{
+    SWRevealViewController *revealVC = [[SWRevealViewController alloc] initWithRearViewController:lvc frontViewController:nav];
+    //    revealVC.rearViewRevealWidth = 100;
+    self.viewController = revealVC;
+    //    self.window.rootViewController = self.viewController;
+    [nav.view addGestureRecognizer:revealVC.panGestureRecognizer];
+//    [lvc.view addGestureRecognizer:revealVC.panGestureRecognizer];
+    
+    //    for (UIViewController *viewC in nav.viewControllers) {
+    //        [viewC.view addGestureRecognizer:revealVC.panGestureRecognizer];
+    //    }
+    return self.viewController;
+    
 }
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

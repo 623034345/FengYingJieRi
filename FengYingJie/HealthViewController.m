@@ -12,13 +12,17 @@
 #import "HealthKitManage.h"
 #import "CHHealthKitManager.h"
 #import "VPNViewController.h"
+#import "UIImageView+WebCache.h"
+#import "LeftViewController.h"
+#import "FeHandwriting.h"
+#import "UIColor+flat.h"
 //#import "SetUpViewController.h"
 @interface HealthViewController ()<UITextFieldDelegate>{
     CHHealthKitManager *_manager;
     dispatch_source_t _timer;
 
 }
-
+@property (strong, nonatomic) FeHandwriting *handwritingLoader;
 @property (nonatomic,strong) HKHealthStore *healthStore;
 @property (nonatomic, strong) UILabel *pedoLab;
 @property (nonatomic, strong) UITextField *textField;
@@ -30,13 +34,46 @@
 @end
 
 @implementation HealthViewController
+@synthesize viewController = _viewController;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [self jiankang];
+    [self creatBackBtn];
+    [self.view addSubview:self.handwritingLoader];
+  
+
+}
+-(void)creatBackBtn
+{
+    SWRevealViewController *revealController = [self revealViewController];
+    
+    
+    [revealController panGestureRecognizer];
+    [revealController tapGestureRecognizer];
+
+    UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    backBtn.bounds = CGRectMake(0, 0, 50, 50);
+    [backBtn setImage:[UIImage imageNamed:@"my_headerImg"]
+             forState:UIControlStateNormal];
+
+    [backBtn addTarget:revealController action:@selector(revealToggle:) forControlEvents:UIControlEventTouchUpInside];
+    backBtn.layer.masksToBounds = YES;
+    backBtn.layer.cornerRadius = 25;
+    UIBarButtonItem *backBtnItem = [[UIBarButtonItem alloc] initWithCustomView:backBtn];
+      self.navigationItem.leftBarButtonItem = backBtnItem;
+}
+-(void)backBtn
+{
+    
+}
+-(void)jiankang
+{
     self.title = @"修改健康步数";
     _manager = [CHHealthKitManager shareInstance];
-
+    
     self.view.backgroundColor = [UIColor whiteColor];
     _healthStore = [[HKHealthStore alloc] init];
     _pedoLab = [[UILabel alloc] initWithFrame:CGRectMake(0, 80, WIDTH / 2, WIDTH / 2)];
@@ -66,48 +103,53 @@
     btn.layer.masksToBounds = YES;
     btn.layer.cornerRadius = 5;
     
-    UIButton *btn1 = [UIButton buttonWithType:UIButtonTypeCustom];
-    btn1.frame = CGRectMake(0, HEIGHT - 100, WIDTH, 50);
-    btn1.centerX = self.view.centerX;
-    [btn1 setTitle:@"高仿走步" forState:UIControlStateNormal];
-    [btn1 setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    [btn1 setBackgroundColor:UICOLOR_HEX(0x254121)];
-    [btn1 addTarget:self action:@selector(setUpBtn) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btn1];
-    btn1.layer.masksToBounds = YES;
-    btn1.layer.cornerRadius = 5;
+//    UIButton *btn1 = [UIButton buttonWithType:UIButtonTypeCustom];
+//    btn1.frame = CGRectMake(0, HEIGHT - 100, WIDTH, 50);
+//    btn1.centerX = self.view.centerX;
+//    [btn1 setTitle:@"高仿走步" forState:UIControlStateNormal];
+//    [btn1 setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+//    [btn1 setBackgroundColor:UICOLOR_HEX(0x254121)];
+//    [btn1 addTarget:self action:@selector(setUpBtn) forControlEvents:UIControlEventTouchUpInside];
+//    [self.view addSubview:btn1];
+//    btn1.layer.masksToBounds = YES;
+//    btn1.layer.cornerRadius = 5;
     
-
+    
     [self gongli];
     [self bushu];
     
     
-
-
-
+    
+    
+    
     
     if(![HKHealthStore isHealthDataAvailable]){
         NSLog(@"设备不支持healthkit");
     }
     else
     {
-//        5，获取权限和获取数据
+        //        5，获取权限和获取数据
         
         //    此处获取权限的写入和读取 获取之后才可以加到数据中
         NSSet *writeDataTypes = [self dataTypesToWrite];
         NSSet *readDataTypes = [self dataTypesToRead];
         [self.healthStore requestAuthorizationToShareTypes:writeDataTypes readTypes:readDataTypes completion:^(BOOL success, NSError * _Nullable error) {
             if (success) {
-
+                
             }else{
                 
             }
         }];
     }
 
-    
 }
-
+-(void)creatBackGroundImage
+{
+    UIImageView *img = [[UIImageView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:img];
+    
+    [img sd_setImageWithURL:[NSURL URLWithString:@"http://125.69.90.201/upload/user/1/2017-05-11/1494496995046_8888_82.jpg"]];
+}
 
 
 -(void)setUpBtn
@@ -318,6 +360,25 @@
             dispatch_resume(_timer);
         }
     }
+}
+-(FeHandwriting *)handwritingLoader
+{
+    if (!_handwritingLoader) {
+
+        _handwritingLoader = [[FeHandwriting alloc] initWithView:self.view];
+        
+        [_handwritingLoader showWhileExecutingBlock:^{
+            [self myTask];
+        } completion:^{
+            [_handwritingLoader removeFromSuperview];
+        }];
+    }
+    return _handwritingLoader;
+}
+- (void)myTask
+{
+    // Do something usefull in here instead of sleeping ...
+    sleep(4);
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -1,20 +1,37 @@
 PODS:
+  - BButton (4.0.2)
+  - CardIO (5.4.1)
   - IQKeyboardManager (4.0.8)
+  - JazzHands (2.0.8)
+  - MBProgressHUD (1.0.0)
   - SDAutoLayout (2.1.7)
+  - SDWebImage (4.0.0-beta2):
+    - SDWebImage/Core (= 4.0.0-beta2)
+  - SDWebImage/Core (4.0.0-beta2)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
+  - BButton
+  - CardIO
   - IQKeyboardManager (~> 4.0.5)
+  - JazzHands
+  - MBProgressHUD
   - SDAutoLayout (~> 2.1.7)
+  - SDWebImage (~> 4.0.0-beta2)
   - YYKit
 
 SPEC CHECKSUMS:
+  BButton: ab0f2ed3b998ae73c5188b57d270d81e4a1eeb27
+  CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
   IQKeyboardManager: 1a8189fa153bf09044355ee0ad36826f6767e7f7
+  JazzHands: 355dc5c2b6fc38ee460d0ed7836c69539263f477
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   SDAutoLayout: e9b36d04b8c0b504762a04d76fbbe5108944297a
+  SDWebImage: e379f33106cf8d6766f970c0ef1c3fb609c94d78
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 7dcbbd16afeb72c666940c1f681611b8a5b16c9a
+PODFILE CHECKSUM: 61b4cf32fa059351bac511980578d50e7f2dfd23
 
 COCOAPODS: 1.1.1

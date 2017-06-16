@@ -19,6 +19,33 @@
 		041DE9BF1E9CC08500C00502 /* ZJPageCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DE9BA1E9CC08500C00502 /* ZJPageCollectionViewController.m */; };
 		041DE9C01E9CC08500C00502 /* ZJPageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DE9BC1E9CC08500C00502 /* ZJPageTableViewController.m */; };
 		041DE9C11E9CC08500C00502 /* ZJPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DE9BE1E9CC08500C00502 /* ZJPageViewController.m */; };
+		0420C0D51EF3AE95002A6A23 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0420C0D41EF3AE95002A6A23 /* QuartzCore.framework */; };
+		0420C0D71EF3AE9F002A6A23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0420C0D61EF3AE9F002A6A23 /* Foundation.framework */; };
+		0420C0D91EF3AEA7002A6A23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0420C0D81EF3AEA7002A6A23 /* UIKit.framework */; };
+		0420C1D51EF3C084002A6A23 /* WifiMan_Sign_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0420C1CD1EF3C084002A6A23 /* WifiMan_Sign_4@2x.png */; };
+		0420C1D61EF3C084002A6A23 /* WifiMan_Sign_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0420C1CE1EF3C084002A6A23 /* WifiMan_Sign_3@2x.png */; };
+		0420C1D71EF3C084002A6A23 /* WifiMan_Sign_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0420C1CF1EF3C084002A6A23 /* WifiMan_Sign_2@2x.png */; };
+		0420C1D81EF3C084002A6A23 /* WifiMan_Sign_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0420C1D01EF3C084002A6A23 /* WifiMan_Sign_1@2x.png */; };
+		0420C1D91EF3C084002A6A23 /* wifimanhub_grayscale@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0420C1D11EF3C084002A6A23 /* wifimanhub_grayscale@2x.png */; };
+		0420C1DA1EF3C084002A6A23 /* wifimanhub@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0420C1D21EF3C084002A6A23 /* wifimanhub@2x.png */; };
+		0420C1DB1EF3C084002A6A23 /* CabinCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0420C1D31EF3C084002A6A23 /* CabinCondensed-Bold.ttf */; };
+		0420C1DC1EF3C084002A6A23 /* Neou-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0420C1D41EF3C084002A6A23 /* Neou-Thin.ttf */; };
+		0420C1E01EF3C0B9002A6A23 /* FeHandwriting.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C1DF1EF3C0B9002A6A23 /* FeHandwriting.m */; };
+		0420C1E31EF3C0C1002A6A23 /* FeRollingLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C1E21EF3C0C1002A6A23 /* FeRollingLoader.m */; };
+		0420C1E61EF3C0C8002A6A23 /* FeZeroLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C1E51EF3C0C8002A6A23 /* FeZeroLoader.m */; };
+		0420C1E91EF3C0CF002A6A23 /* FeEqualize.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C1E81EF3C0CF002A6A23 /* FeEqualize.m */; };
+		0420C1EC1EF3C0D7002A6A23 /* FeHourGlass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C1EB1EF3C0D7002A6A23 /* FeHourGlass.m */; };
+		0420C1F01EF3C0DF002A6A23 /* FeWifiManHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C1EE1EF3C0DF002A6A23 /* FeWifiManHub.m */; };
+		0420C1F11EF3C0DF002A6A23 /* FeWifiManHub.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0420C1EF1EF3C0DF002A6A23 /* FeWifiManHub.xib */; };
+		0420C1F41EF3C0E6002A6A23 /* FeThreeDotGlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C1F31EF3C0E6002A6A23 /* FeThreeDotGlow.m */; };
+		0420C1F91EF3C0EF002A6A23 /* FeVietNamLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C1F61EF3C0EF002A6A23 /* FeVietNamLoader.m */; };
+		0420C1FA1EF3C0EF002A6A23 /* FeVietNamBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C1F81EF3C0EF002A6A23 /* FeVietNamBar.m */; };
+		0420C1FF1EF3C0FB002A6A23 /* FeLoadingIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C1FC1EF3C0FB002A6A23 /* FeLoadingIcon.m */; };
+		0420C2001EF3C0FB002A6A23 /* FeLoadingIconBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C1FE1EF3C0FB002A6A23 /* FeLoadingIconBox.m */; };
+		0420C2051EF3C104002A6A23 /* FeSpinnerTenDot.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C2021EF3C104002A6A23 /* FeSpinnerTenDot.m */; };
+		0420C2061EF3C104002A6A23 /* FeTenDot.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C2041EF3C104002A6A23 /* FeTenDot.m */; };
+		0420C20C1EF3C120002A6A23 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C2091EF3C120002A6A23 /* FXBlurView.m */; };
+		0420C20D1EF3C120002A6A23 /* UIColor+flat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C20B1EF3C120002A6A23 /* UIColor+flat.m */; };
 		0424AD031EA9D56A00729350 /* HealthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0424AD021EA9D56A00729350 /* HealthViewController.m */; };
 		0424AD051EA9DADF00729350 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0424AD041EA9DADF00729350 /* HealthKit.framework */; };
 		0424AD081EA9E9EB00729350 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0424AD071EA9E9EA00729350 /* CoreGraphics.framework */; };
@@ -35,6 +62,8 @@
 		0449B11F1E837DFF0071E9E8 /* FYJTheConstellationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449B11D1E837DFF0071E9E8 /* FYJTheConstellationViewController.m */; };
 		0449B1201E837DFF0071E9E8 /* FYJTheConstellationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0449B11E1E837DFF0071E9E8 /* FYJTheConstellationViewController.xib */; };
 		0449B1241E837EA60071E9E8 /* WZBDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449B1231E837EA60071E9E8 /* WZBDatePicker.m */; };
+		0473EAED1EF123F3009097C9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0473EAEC1EF123F3009097C9 /* SWRevealViewController.m */; };
+		0473EAF11EF124AD009097C9 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0473EAF01EF124AD009097C9 /* LeftViewController.m */; };
 		0477E8841E851A88001AC4DF /* TheIunarCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E8821E851A88001AC4DF /* TheIunarCalendarViewController.m */; };
 		0477E8851E851A88001AC4DF /* TheIunarCalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0477E8831E851A88001AC4DF /* TheIunarCalendarViewController.xib */; };
 		0477E8891E851D54001AC4DF /* CalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E8871E851D54001AC4DF /* CalendarCell.m */; };
@@ -96,6 +125,48 @@
 		041DE9BC1E9CC08500C00502 /* ZJPageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPageTableViewController.m; sourceTree = "<group>"; };
 		041DE9BD1E9CC08500C00502 /* ZJPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPageViewController.h; sourceTree = "<group>"; };
 		041DE9BE1E9CC08500C00502 /* ZJPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPageViewController.m; sourceTree = "<group>"; };
+		0420C0D41EF3AE95002A6A23 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0420C0D61EF3AE9F002A6A23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0420C0D81EF3AEA7002A6A23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0420C1CD1EF3C084002A6A23 /* WifiMan_Sign_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WifiMan_Sign_4@2x.png"; sourceTree = "<group>"; };
+		0420C1CE1EF3C084002A6A23 /* WifiMan_Sign_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WifiMan_Sign_3@2x.png"; sourceTree = "<group>"; };
+		0420C1CF1EF3C084002A6A23 /* WifiMan_Sign_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WifiMan_Sign_2@2x.png"; sourceTree = "<group>"; };
+		0420C1D01EF3C084002A6A23 /* WifiMan_Sign_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WifiMan_Sign_1@2x.png"; sourceTree = "<group>"; };
+		0420C1D11EF3C084002A6A23 /* wifimanhub_grayscale@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wifimanhub_grayscale@2x.png"; sourceTree = "<group>"; };
+		0420C1D21EF3C084002A6A23 /* wifimanhub@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wifimanhub@2x.png"; sourceTree = "<group>"; };
+		0420C1D31EF3C084002A6A23 /* CabinCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CabinCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		0420C1D41EF3C084002A6A23 /* Neou-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neou-Thin.ttf"; sourceTree = "<group>"; };
+		0420C1DE1EF3C0B9002A6A23 /* FeHandwriting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeHandwriting.h; sourceTree = "<group>"; };
+		0420C1DF1EF3C0B9002A6A23 /* FeHandwriting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeHandwriting.m; sourceTree = "<group>"; };
+		0420C1E11EF3C0C1002A6A23 /* FeRollingLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeRollingLoader.h; sourceTree = "<group>"; };
+		0420C1E21EF3C0C1002A6A23 /* FeRollingLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeRollingLoader.m; sourceTree = "<group>"; };
+		0420C1E41EF3C0C8002A6A23 /* FeZeroLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeZeroLoader.h; sourceTree = "<group>"; };
+		0420C1E51EF3C0C8002A6A23 /* FeZeroLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeZeroLoader.m; sourceTree = "<group>"; };
+		0420C1E71EF3C0CF002A6A23 /* FeEqualize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeEqualize.h; sourceTree = "<group>"; };
+		0420C1E81EF3C0CF002A6A23 /* FeEqualize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeEqualize.m; sourceTree = "<group>"; };
+		0420C1EA1EF3C0D7002A6A23 /* FeHourGlass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeHourGlass.h; sourceTree = "<group>"; };
+		0420C1EB1EF3C0D7002A6A23 /* FeHourGlass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeHourGlass.m; sourceTree = "<group>"; };
+		0420C1ED1EF3C0DF002A6A23 /* FeWifiManHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeWifiManHub.h; sourceTree = "<group>"; };
+		0420C1EE1EF3C0DF002A6A23 /* FeWifiManHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeWifiManHub.m; sourceTree = "<group>"; };
+		0420C1EF1EF3C0DF002A6A23 /* FeWifiManHub.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeWifiManHub.xib; sourceTree = "<group>"; };
+		0420C1F21EF3C0E6002A6A23 /* FeThreeDotGlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeThreeDotGlow.h; sourceTree = "<group>"; };
+		0420C1F31EF3C0E6002A6A23 /* FeThreeDotGlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeThreeDotGlow.m; sourceTree = "<group>"; };
+		0420C1F51EF3C0EF002A6A23 /* FeVietNamLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeVietNamLoader.h; sourceTree = "<group>"; };
+		0420C1F61EF3C0EF002A6A23 /* FeVietNamLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeVietNamLoader.m; sourceTree = "<group>"; };
+		0420C1F71EF3C0EF002A6A23 /* FeVietNamBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeVietNamBar.h; sourceTree = "<group>"; };
+		0420C1F81EF3C0EF002A6A23 /* FeVietNamBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeVietNamBar.m; sourceTree = "<group>"; };
+		0420C1FB1EF3C0FB002A6A23 /* FeLoadingIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeLoadingIcon.h; sourceTree = "<group>"; };
+		0420C1FC1EF3C0FB002A6A23 /* FeLoadingIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeLoadingIcon.m; sourceTree = "<group>"; };
+		0420C1FD1EF3C0FB002A6A23 /* FeLoadingIconBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeLoadingIconBox.h; sourceTree = "<group>"; };
+		0420C1FE1EF3C0FB002A6A23 /* FeLoadingIconBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeLoadingIconBox.m; sourceTree = "<group>"; };
+		0420C2011EF3C104002A6A23 /* FeSpinnerTenDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeSpinnerTenDot.h; sourceTree = "<group>"; };
+		0420C2021EF3C104002A6A23 /* FeSpinnerTenDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeSpinnerTenDot.m; sourceTree = "<group>"; };
+		0420C2031EF3C104002A6A23 /* FeTenDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeTenDot.h; sourceTree = "<group>"; };
+		0420C2041EF3C104002A6A23 /* FeTenDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeTenDot.m; sourceTree = "<group>"; };
+		0420C2081EF3C120002A6A23 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		0420C2091EF3C120002A6A23 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		0420C20A1EF3C120002A6A23 /* UIColor+flat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+flat.h"; sourceTree = "<group>"; };
+		0420C20B1EF3C120002A6A23 /* UIColor+flat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+flat.m"; sourceTree = "<group>"; };
 		0424AD011EA9D56A00729350 /* HealthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthViewController.h; sourceTree = "<group>"; };
 		0424AD021EA9D56A00729350 /* HealthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthViewController.m; sourceTree = "<group>"; };
 		0424AD041EA9DADF00729350 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
@@ -126,6 +197,10 @@
 		0449B11E1E837DFF0071E9E8 /* FYJTheConstellationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYJTheConstellationViewController.xib; sourceTree = "<group>"; };
 		0449B1221E837EA60071E9E8 /* WZBDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZBDatePicker.h; sourceTree = "<group>"; };
 		0449B1231E837EA60071E9E8 /* WZBDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZBDatePicker.m; sourceTree = "<group>"; };
+		0473EAEB1EF123F3009097C9 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		0473EAEC1EF123F3009097C9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		0473EAEF1EF124AD009097C9 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		0473EAF01EF124AD009097C9 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 		0477E8811E851A88001AC4DF /* TheIunarCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheIunarCalendarViewController.h; sourceTree = "<group>"; };
 		0477E8821E851A88001AC4DF /* TheIunarCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheIunarCalendarViewController.m; sourceTree = "<group>"; };
 		0477E8831E851A88001AC4DF /* TheIunarCalendarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TheIunarCalendarViewController.xib; sourceTree = "<group>"; };
@@ -161,6 +236,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0420C0D91EF3AEA7002A6A23 /* UIKit.framework in Frameworks */,
+				0420C0D71EF3AE9F002A6A23 /* Foundation.framework in Frameworks */,
+				0420C0D51EF3AE95002A6A23 /* QuartzCore.framework in Frameworks */,
 				0424AD0A1EA9E9F400729350 /* CoreMotion.framework in Frameworks */,
 				0424AD081EA9E9EB00729350 /* CoreGraphics.framework in Frameworks */,
 				0424AD051EA9DADF00729350 /* HealthKit.framework in Frameworks */,
@@ -225,6 +303,76 @@
 			name = "玩玩";
 			sourceTree = "<group>";
 		};
+		0420C1CB1EF3C02E002A6A23 /* FeSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				0420C2071EF3C10F002A6A23 /* Tool */,
+				0420C1DD1EF3C088002A6A23 /* Type */,
+				0420C1CC1EF3C073002A6A23 /* Resource */,
+			);
+			name = FeSpinner;
+			sourceTree = "<group>";
+		};
+		0420C1CC1EF3C073002A6A23 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0420C1CD1EF3C084002A6A23 /* WifiMan_Sign_4@2x.png */,
+				0420C1CE1EF3C084002A6A23 /* WifiMan_Sign_3@2x.png */,
+				0420C1CF1EF3C084002A6A23 /* WifiMan_Sign_2@2x.png */,
+				0420C1D01EF3C084002A6A23 /* WifiMan_Sign_1@2x.png */,
+				0420C1D11EF3C084002A6A23 /* wifimanhub_grayscale@2x.png */,
+				0420C1D21EF3C084002A6A23 /* wifimanhub@2x.png */,
+				0420C1D31EF3C084002A6A23 /* CabinCondensed-Bold.ttf */,
+				0420C1D41EF3C084002A6A23 /* Neou-Thin.ttf */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		0420C1DD1EF3C088002A6A23 /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				0420C1DE1EF3C0B9002A6A23 /* FeHandwriting.h */,
+				0420C1DF1EF3C0B9002A6A23 /* FeHandwriting.m */,
+				0420C1E11EF3C0C1002A6A23 /* FeRollingLoader.h */,
+				0420C1E21EF3C0C1002A6A23 /* FeRollingLoader.m */,
+				0420C1E41EF3C0C8002A6A23 /* FeZeroLoader.h */,
+				0420C1E51EF3C0C8002A6A23 /* FeZeroLoader.m */,
+				0420C1E71EF3C0CF002A6A23 /* FeEqualize.h */,
+				0420C1E81EF3C0CF002A6A23 /* FeEqualize.m */,
+				0420C1EA1EF3C0D7002A6A23 /* FeHourGlass.h */,
+				0420C1EB1EF3C0D7002A6A23 /* FeHourGlass.m */,
+				0420C1ED1EF3C0DF002A6A23 /* FeWifiManHub.h */,
+				0420C1EE1EF3C0DF002A6A23 /* FeWifiManHub.m */,
+				0420C1EF1EF3C0DF002A6A23 /* FeWifiManHub.xib */,
+				0420C1F21EF3C0E6002A6A23 /* FeThreeDotGlow.h */,
+				0420C1F31EF3C0E6002A6A23 /* FeThreeDotGlow.m */,
+				0420C1F51EF3C0EF002A6A23 /* FeVietNamLoader.h */,
+				0420C1F61EF3C0EF002A6A23 /* FeVietNamLoader.m */,
+				0420C1F71EF3C0EF002A6A23 /* FeVietNamBar.h */,
+				0420C1F81EF3C0EF002A6A23 /* FeVietNamBar.m */,
+				0420C1FB1EF3C0FB002A6A23 /* FeLoadingIcon.h */,
+				0420C1FC1EF3C0FB002A6A23 /* FeLoadingIcon.m */,
+				0420C1FD1EF3C0FB002A6A23 /* FeLoadingIconBox.h */,
+				0420C1FE1EF3C0FB002A6A23 /* FeLoadingIconBox.m */,
+				0420C2011EF3C104002A6A23 /* FeSpinnerTenDot.h */,
+				0420C2021EF3C104002A6A23 /* FeSpinnerTenDot.m */,
+				0420C2031EF3C104002A6A23 /* FeTenDot.h */,
+				0420C2041EF3C104002A6A23 /* FeTenDot.m */,
+			);
+			name = Type;
+			sourceTree = "<group>";
+		};
+		0420C2071EF3C10F002A6A23 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				0420C2081EF3C120002A6A23 /* FXBlurView.h */,
+				0420C2091EF3C120002A6A23 /* FXBlurView.m */,
+				0420C20A1EF3C120002A6A23 /* UIColor+flat.h */,
+				0420C20B1EF3C120002A6A23 /* UIColor+flat.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
 		0424AD001EA9D55300729350 /* 健康 */ = {
 			isa = PBXGroup;
 			children = (
@@ -267,6 +415,7 @@
 				0424AD061EA9DADF00729350 /* FengYingJie.entitlements */,
 				0449AFD71E8362120071E9E8 /* AppDelegate.h */,
 				0449AFD81E8362120071E9E8 /* AppDelegate.m */,
+				0473EAEE1EF12496009097C9 /* 左侧 */,
 				0424AD001EA9D55300729350 /* 健康 */,
 				04A3F7551E9F1A7500E1E542 /* VPN */,
 				041DE9B51E9CBF1C00C00502 /* 玩玩 */,
@@ -275,6 +424,7 @@
 				0477E87D1E85167B001AC4DF /* Model */,
 				0449AFE01E8362120071E9E8 /* Assets.xcassets */,
 				0449AFE21E8362120071E9E8 /* LaunchScreen.storyboard */,
+				0473EAEA1EF123F3009097C9 /* SWRevealViewController */,
 				0486792E1EB97CB40006186F /* PanNavigationController */,
 				04EDF8C41EA5C6CE0072B86F /* BaseNavigationController.h */,
 				04EDF8C51EA5C6CE0072B86F /* BaseNavigationController.m */,
@@ -289,6 +439,7 @@
 		0449AFD41E8362120071E9E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0420C1CB1EF3C02E002A6A23 /* FeSpinner */,
 				041DE99B1E9CBEF900C00502 /* ZJScrollPageView */,
 				0449B1211E837EA60071E9E8 /* WZBDatePicker */,
 				0449AFD51E8362120071E9E8 /* main.m */,
@@ -361,6 +512,24 @@
 			name = "防作弊";
 			sourceTree = "<group>";
 		};
+		0473EAEA1EF123F3009097C9 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0473EAEB1EF123F3009097C9 /* SWRevealViewController.h */,
+				0473EAEC1EF123F3009097C9 /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		0473EAEE1EF12496009097C9 /* 左侧 */ = {
+			isa = PBXGroup;
+			children = (
+				0473EAEF1EF124AD009097C9 /* LeftViewController.h */,
+				0473EAF01EF124AD009097C9 /* LeftViewController.m */,
+			);
+			name = "左侧";
+			sourceTree = "<group>";
+		};
 		0477E87D1E85167B001AC4DF /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -402,6 +571,9 @@
 		2AA877081613BC8AB30C1676 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0420C0D81EF3AEA7002A6A23 /* UIKit.framework */,
+				0420C0D61EF3AE9F002A6A23 /* Foundation.framework */,
+				0420C0D41EF3AE95002A6A23 /* QuartzCore.framework */,
 				0424AD091EA9E9F400729350 /* CoreMotion.framework */,
 				0424AD071EA9E9EA00729350 /* CoreGraphics.framework */,
 				0424AD041EA9DADF00729350 /* HealthKit.framework */,
@@ -535,10 +707,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0420C1DA1EF3C084002A6A23 /* wifimanhub@2x.png in Resources */,
+				0420C1DB1EF3C084002A6A23 /* CabinCondensed-Bold.ttf in Resources */,
 				0449AFE41E8362120071E9E8 /* LaunchScreen.storyboard in Resources */,
 				0449AFE11E8362120071E9E8 /* Assets.xcassets in Resources */,
+				0420C1D61EF3C084002A6A23 /* WifiMan_Sign_3@2x.png in Resources */,
+				0420C1D51EF3C084002A6A23 /* WifiMan_Sign_4@2x.png in Resources */,
+				0420C1D91EF3C084002A6A23 /* wifimanhub_grayscale@2x.png in Resources */,
 				0477E8851E851A88001AC4DF /* TheIunarCalendarViewController.xib in Resources */,
 				0449B1201E837DFF0071E9E8 /* FYJTheConstellationViewController.xib in Resources */,
+				0420C1D81EF3C084002A6A23 /* WifiMan_Sign_1@2x.png in Resources */,
+				0420C1F11EF3C0DF002A6A23 /* FeWifiManHub.xib in Resources */,
+				0420C1D71EF3C084002A6A23 /* WifiMan_Sign_2@2x.png in Resources */,
+				0420C1DC1EF3C084002A6A23 /* Neou-Thin.ttf in Resources */,
 				0477E88A1E851D54001AC4DF /* CalendarCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -615,32 +796,49 @@
 				041DE9AD1E9CBEF900C00502 /* UIView+ZJFrame.m in Sources */,
 				048679371EB97CB40006186F /* UIView+Snapshot.m in Sources */,
 				041DE9C11E9CC08500C00502 /* ZJPageViewController.m in Sources */,
+				0420C1FA1EF3C0EF002A6A23 /* FeVietNamBar.m in Sources */,
 				041DE9B41E9CBEF900C00502 /* ZJTitleView.m in Sources */,
 				0477E8841E851A88001AC4DF /* TheIunarCalendarViewController.m in Sources */,
+				0420C2061EF3C104002A6A23 /* FeTenDot.m in Sources */,
 				0449B1241E837EA60071E9E8 /* WZBDatePicker.m in Sources */,
 				0424AD031EA9D56A00729350 /* HealthViewController.m in Sources */,
 				0449B11F1E837DFF0071E9E8 /* FYJTheConstellationViewController.m in Sources */,
 				04EDF8C61EA5C6CE0072B86F /* BaseNavigationController.m in Sources */,
+				0420C1E91EF3C0CF002A6A23 /* FeEqualize.m in Sources */,
+				0420C20C1EF3C120002A6A23 /* FXBlurView.m in Sources */,
 				041DE9B01E9CBEF900C00502 /* ZJContentView.m in Sources */,
+				0420C1FF1EF3C0FB002A6A23 /* FeLoadingIcon.m in Sources */,
 				041DE9B11E9CBEF900C00502 /* ZJScrollPageView.m in Sources */,
+				0420C1E61EF3C0C8002A6A23 /* FeZeroLoader.m in Sources */,
 				041DE9AF1E9CBEF900C00502 /* ZJCollectionView.m in Sources */,
+				0420C1F91EF3C0EF002A6A23 /* FeVietNamLoader.m in Sources */,
 				0449AFD91E8362120071E9E8 /* AppDelegate.m in Sources */,
 				04A3F7581E9F1A8300E1E542 /* VPNViewController.m in Sources */,
 				041DE9B21E9CBEF900C00502 /* ZJScrollSegmentView.m in Sources */,
+				0420C1EC1EF3C0D7002A6A23 /* FeHourGlass.m in Sources */,
 				0424AD131EA9F2B500729350 /* HealthKitManage.m in Sources */,
 				041DE9C01E9CC08500C00502 /* ZJPageTableViewController.m in Sources */,
 				041DE9B31E9CBEF900C00502 /* ZJSegmentStyle.m in Sources */,
+				0420C2001EF3C0FB002A6A23 /* FeLoadingIconBox.m in Sources */,
+				0420C1E01EF3C0B9002A6A23 /* FeHandwriting.m in Sources */,
+				0420C1F41EF3C0E6002A6A23 /* FeThreeDotGlow.m in Sources */,
 				041DE9BF1E9CC08500C00502 /* ZJPageCollectionViewController.m in Sources */,
 				048679361EB97CB40006186F /* LCPanNavigationController.m in Sources */,
 				04CFF7A91E8B4EDC00CE576F /* YJWiFiViewController.m in Sources */,
+				0420C1F01EF3C0DF002A6A23 /* FeWifiManHub.m in Sources */,
 				041DE9B81E9CBF5500C00502 /* PlayViewController.m in Sources */,
 				048679351EB97CB40006186F /* LCPanGestureRecognizer.m in Sources */,
+				0420C1E31EF3C0C1002A6A23 /* FeRollingLoader.m in Sources */,
 				0449AFD61E8362120071E9E8 /* main.m in Sources */,
 				041DE9AE1E9CBEF900C00502 /* UIViewController+ZJScrollPageController.m in Sources */,
 				04C212411E8A132200F7016C /* UICalender.m in Sources */,
+				0420C2051EF3C104002A6A23 /* FeSpinnerTenDot.m in Sources */,
+				0420C20D1EF3C120002A6A23 /* UIColor+flat.m in Sources */,
 				0449B00B1E8368680071E9E8 /* UIViewController+FYJViewController.m in Sources */,
+				0473EAED1EF123F3009097C9 /* SWRevealViewController.m in Sources */,
 				0424AD161EA9FDF500729350 /* CHHealthKitManager.m in Sources */,
 				04C212441E8A137E00F7016C /* DataCalender.m in Sources */,
+				0473EAF11EF124AD009097C9 /* LeftViewController.m in Sources */,
 				04C212471E8A45B200F7016C /* YJBirthday.m in Sources */,
 				0477E8891E851D54001AC4DF /* CalendarCell.m in Sources */,
 			);
@@ -790,7 +988,7 @@
 				DEVELOPMENT_TEAM = G3PWG2CJ46;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Mac/Desktop/FengYingJie/FengYingJie/Header.h;
+				GCC_PREFIX_HEADER = "/Users/Mac/Desktop/个人/FengYingJie/FengYingJie/Header.h";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/My-iDevice-Tools-master/**";
 				INFOPLIST_FILE = FengYingJie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -799,10 +997,52 @@
 					"$(PROJECT_DIR)/FengYingJie/DingTalkDylib/Package/usr/lib",
 				);
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"CardIO\"",
+					"-l\"c++\"",
+					"-l\"opencv_core\"",
+					"-l\"opencv_imgproc\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"BButton\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"JazzHands\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SDAutoLayout\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"YYKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.luohua.FengYingJie1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = "armv7 armv7s arm64";
+				VALID_ARCHS = "armv7 armv7s arm64 i386";
 			};
 			name = Debug;
 		};
@@ -817,7 +1057,7 @@
 				DEVELOPMENT_TEAM = G3PWG2CJ46;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Mac/Desktop/FengYingJie/FengYingJie/Header.h;
+				GCC_PREFIX_HEADER = "/Users/Mac/Desktop/个人/FengYingJie/FengYingJie/Header.h";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/My-iDevice-Tools-master/**";
 				INFOPLIST_FILE = FengYingJie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -825,11 +1065,53 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/FengYingJie/DingTalkDylib/Package/usr/lib",
 				);
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"CardIO\"",
+					"-l\"c++\"",
+					"-l\"opencv_core\"",
+					"-l\"opencv_imgproc\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"BButton\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"JazzHands\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SDAutoLayout\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"YYKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.luohua.FengYingJie1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = "armv7 armv7s arm64";
+				VALID_ARCHS = "armv7 armv7s arm64 i386";
 			};
 			name = Release;
 		};

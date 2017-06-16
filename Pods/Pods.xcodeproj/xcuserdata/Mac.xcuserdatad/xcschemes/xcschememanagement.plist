@@ -4,38 +4,60 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>BButton.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>IQKeyboardManager.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
+		</dict>
+		<key>JazzHands.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-FengYingJie.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 		<key>SDAutoLayout.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>YYKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>BC0219A589A6A5E41058D6F3F84E0349</key>
+		<key>41FA54D12162DAD51D02FC58A2CD5034</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>46FD23A7B4171DBAAB668A2DBC736883</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A439A22991681E543F777F6E8288D759</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -45,12 +67,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DA249F50D0769F6D12F4A6581AE15156</key>
+		<key>C6B9778419C1065DA638B5DC735573FE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F3141447EAD93CD0A3DE6156DFA15B6E</key>
+		<key>D8167FC80FB75998FEB9BCF29455230B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F22BC07EDF04E7CE7A7B8A193A9697C5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC4287CBDFABEA54D8217A6724B62E1B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
