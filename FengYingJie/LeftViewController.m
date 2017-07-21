@@ -91,25 +91,25 @@
     // Grab a handle to the reveal controller, as if you'd do with a navigtion controller via self.navigationController.
     
     SWRevealViewController *revealController = self.revealViewController;
-    
- 
+//
+// 
     NSInteger row = indexPath.row;
-    
-    if ( row == _presentedRow )
-    {
-        [revealController setFrontViewPosition:FrontViewPositionLeft animated:YES];
-        return;
-    }
-    else if (row == 2)
-    {
-        [revealController setFrontViewPosition:FrontViewPositionRightMost animated:YES];
-        return;
-    }
-    else if (row == 3)
-    {
-        [revealController setFrontViewPosition:FrontViewPositionRight animated:YES];
-        return;
-    }
+//
+//    if ( row == _presentedRow )
+//    {
+//        [revealController setFrontViewPosition:FrontViewPositionLeft animated:YES];
+//        return;
+//    }
+//    else if (row == 2)
+//    {
+//        [revealController setFrontViewPosition:FrontViewPositionRightMost animated:YES];
+//        return;
+//    }
+//    else if (row == 3)
+//    {
+//        [revealController setFrontViewPosition:FrontViewPositionRight animated:YES];
+//        return;
+//    }
 
     // otherwise we'll create a new frontViewController and push it with animation
     
@@ -117,7 +117,7 @@
     
     if (row == 0)
     {
-        newFrontController = [[VPNViewController alloc] init];
+        newFrontController = [[DonwViewController alloc] init];
     }
     
     else if (row == 1)

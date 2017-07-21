@@ -22,30 +22,6 @@
 		0420C0D51EF3AE95002A6A23 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0420C0D41EF3AE95002A6A23 /* QuartzCore.framework */; };
 		0420C0D71EF3AE9F002A6A23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0420C0D61EF3AE9F002A6A23 /* Foundation.framework */; };
 		0420C0D91EF3AEA7002A6A23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0420C0D81EF3AEA7002A6A23 /* UIKit.framework */; };
-		0420C1D51EF3C084002A6A23 /* WifiMan_Sign_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0420C1CD1EF3C084002A6A23 /* WifiMan_Sign_4@2x.png */; };
-		0420C1D61EF3C084002A6A23 /* WifiMan_Sign_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0420C1CE1EF3C084002A6A23 /* WifiMan_Sign_3@2x.png */; };
-		0420C1D71EF3C084002A6A23 /* WifiMan_Sign_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0420C1CF1EF3C084002A6A23 /* WifiMan_Sign_2@2x.png */; };
-		0420C1D81EF3C084002A6A23 /* WifiMan_Sign_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0420C1D01EF3C084002A6A23 /* WifiMan_Sign_1@2x.png */; };
-		0420C1D91EF3C084002A6A23 /* wifimanhub_grayscale@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0420C1D11EF3C084002A6A23 /* wifimanhub_grayscale@2x.png */; };
-		0420C1DA1EF3C084002A6A23 /* wifimanhub@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0420C1D21EF3C084002A6A23 /* wifimanhub@2x.png */; };
-		0420C1DB1EF3C084002A6A23 /* CabinCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0420C1D31EF3C084002A6A23 /* CabinCondensed-Bold.ttf */; };
-		0420C1DC1EF3C084002A6A23 /* Neou-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0420C1D41EF3C084002A6A23 /* Neou-Thin.ttf */; };
-		0420C1E01EF3C0B9002A6A23 /* FeHandwriting.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C1DF1EF3C0B9002A6A23 /* FeHandwriting.m */; };
-		0420C1E31EF3C0C1002A6A23 /* FeRollingLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C1E21EF3C0C1002A6A23 /* FeRollingLoader.m */; };
-		0420C1E61EF3C0C8002A6A23 /* FeZeroLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C1E51EF3C0C8002A6A23 /* FeZeroLoader.m */; };
-		0420C1E91EF3C0CF002A6A23 /* FeEqualize.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C1E81EF3C0CF002A6A23 /* FeEqualize.m */; };
-		0420C1EC1EF3C0D7002A6A23 /* FeHourGlass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C1EB1EF3C0D7002A6A23 /* FeHourGlass.m */; };
-		0420C1F01EF3C0DF002A6A23 /* FeWifiManHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C1EE1EF3C0DF002A6A23 /* FeWifiManHub.m */; };
-		0420C1F11EF3C0DF002A6A23 /* FeWifiManHub.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0420C1EF1EF3C0DF002A6A23 /* FeWifiManHub.xib */; };
-		0420C1F41EF3C0E6002A6A23 /* FeThreeDotGlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C1F31EF3C0E6002A6A23 /* FeThreeDotGlow.m */; };
-		0420C1F91EF3C0EF002A6A23 /* FeVietNamLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C1F61EF3C0EF002A6A23 /* FeVietNamLoader.m */; };
-		0420C1FA1EF3C0EF002A6A23 /* FeVietNamBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C1F81EF3C0EF002A6A23 /* FeVietNamBar.m */; };
-		0420C1FF1EF3C0FB002A6A23 /* FeLoadingIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C1FC1EF3C0FB002A6A23 /* FeLoadingIcon.m */; };
-		0420C2001EF3C0FB002A6A23 /* FeLoadingIconBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C1FE1EF3C0FB002A6A23 /* FeLoadingIconBox.m */; };
-		0420C2051EF3C104002A6A23 /* FeSpinnerTenDot.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C2021EF3C104002A6A23 /* FeSpinnerTenDot.m */; };
-		0420C2061EF3C104002A6A23 /* FeTenDot.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C2041EF3C104002A6A23 /* FeTenDot.m */; };
-		0420C20C1EF3C120002A6A23 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C2091EF3C120002A6A23 /* FXBlurView.m */; };
-		0420C20D1EF3C120002A6A23 /* UIColor+flat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420C20B1EF3C120002A6A23 /* UIColor+flat.m */; };
 		0424AD031EA9D56A00729350 /* HealthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0424AD021EA9D56A00729350 /* HealthViewController.m */; };
 		0424AD051EA9DADF00729350 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0424AD041EA9DADF00729350 /* HealthKit.framework */; };
 		0424AD081EA9E9EB00729350 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0424AD071EA9E9EA00729350 /* CoreGraphics.framework */; };
@@ -71,13 +47,33 @@
 		048679351EB97CB40006186F /* LCPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 048679301EB97CB40006186F /* LCPanGestureRecognizer.m */; };
 		048679361EB97CB40006186F /* LCPanNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048679321EB97CB40006186F /* LCPanNavigationController.m */; };
 		048679371EB97CB40006186F /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 048679341EB97CB40006186F /* UIView+Snapshot.m */; };
+		049896141F1F375200D11791 /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049896131F1F375200D11791 /* AVOSCloud.framework */; };
+		049896161F1F375800D11791 /* AVOSCloudIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049896151F1F375800D11791 /* AVOSCloudIM.framework */; };
+		049896181F1F375F00D11791 /* AVOSCloudCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049896171F1F375F00D11791 /* AVOSCloudCrashReporting.framework */; };
+		0498961A1F1F376400D11791 /* BButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049896191F1F376400D11791 /* BButton.framework */; };
+		0498961C1F1F376B00D11791 /* SDAutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0498961B1F1F376B00D11791 /* SDAutoLayout.framework */; };
+		0498961E1F1F37E500D11791 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0498961D1F1F37E500D11791 /* libz.tbd */; };
+		049896201F1F37F000D11791 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0498961F1F1F37F000D11791 /* libc++.tbd */; };
+		049896221F1F37F900D11791 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 049896211F1F37F900D11791 /* libicucore.tbd */; };
+		049896241F1F380200D11791 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 049896231F1F380200D11791 /* libsqlite3.tbd */; };
+		049896261F1F380A00D11791 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049896251F1F380A00D11791 /* SystemConfiguration.framework */; };
+		049896281F1F381300D11791 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049896271F1F381300D11791 /* MobileCoreServices.framework */; };
+		0498962A1F1F381B00D11791 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049896291F1F381B00D11791 /* CoreTelephony.framework */; };
+		0498962C1F1F382100D11791 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0498962B1F1F382100D11791 /* CoreLocation.framework */; };
+		0498962F1F1F449000D11791 /* FYJAvCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 0498962E1F1F449000D11791 /* FYJAvCloud.m */; };
 		04A3F7541E9F19DE00E1E542 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A3F7531E9F19DE00E1E542 /* NetworkExtension.framework */; };
 		04A3F7581E9F1A8300E1E542 /* VPNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3F7571E9F1A8300E1E542 /* VPNViewController.m */; };
 		04C212411E8A132200F7016C /* UICalender.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C212401E8A132200F7016C /* UICalender.m */; };
 		04C212441E8A137E00F7016C /* DataCalender.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C212431E8A137E00F7016C /* DataCalender.m */; };
 		04C212471E8A45B200F7016C /* YJBirthday.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C212461E8A45B200F7016C /* YJBirthday.m */; };
 		04CFF7A91E8B4EDC00CE576F /* YJWiFiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFF7A81E8B4EDC00CE576F /* YJWiFiViewController.m */; };
-		04EDF8C61EA5C6CE0072B86F /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EDF8C51EA5C6CE0072B86F /* BaseNavigationController.m */; };
+		04E9E5CD1F04C97D0018CF8B /* HSDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E9E5C71F04C97D0018CF8B /* HSDownloadManager.m */; };
+		04E9E5CE1F04C97D0018CF8B /* HSSessionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E9E5C91F04C97D0018CF8B /* HSSessionModel.m */; };
+		04E9E5CF1F04C97D0018CF8B /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E9E5CC1F04C97D0018CF8B /* NSString+Hash.m */; };
+		04E9E5D31F04C9A80018CF8B /* DonwViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E9E5D11F04C9A80018CF8B /* DonwViewController.m */; };
+		04E9E5D41F04C9A80018CF8B /* DonwViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E9E5D21F04C9A80018CF8B /* DonwViewController.xib */; };
+		04E9E5D81F04CAE60018CF8B /* DownTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E9E5D61F04CAE60018CF8B /* DownTableViewCell.m */; };
+		04E9E5D91F04CAE60018CF8B /* DownTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E9E5D71F04CAE60018CF8B /* DownTableViewCell.xib */; };
 		35A82DBAD58B84690D326BEE /* Pods_FengYingJie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4BEB686ACB258742E917D3 /* Pods_FengYingJie.framework */; };
 /* End PBXBuildFile section */
 
@@ -128,45 +124,6 @@
 		0420C0D41EF3AE95002A6A23 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0420C0D61EF3AE9F002A6A23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0420C0D81EF3AEA7002A6A23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		0420C1CD1EF3C084002A6A23 /* WifiMan_Sign_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WifiMan_Sign_4@2x.png"; sourceTree = "<group>"; };
-		0420C1CE1EF3C084002A6A23 /* WifiMan_Sign_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WifiMan_Sign_3@2x.png"; sourceTree = "<group>"; };
-		0420C1CF1EF3C084002A6A23 /* WifiMan_Sign_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WifiMan_Sign_2@2x.png"; sourceTree = "<group>"; };
-		0420C1D01EF3C084002A6A23 /* WifiMan_Sign_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WifiMan_Sign_1@2x.png"; sourceTree = "<group>"; };
-		0420C1D11EF3C084002A6A23 /* wifimanhub_grayscale@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wifimanhub_grayscale@2x.png"; sourceTree = "<group>"; };
-		0420C1D21EF3C084002A6A23 /* wifimanhub@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wifimanhub@2x.png"; sourceTree = "<group>"; };
-		0420C1D31EF3C084002A6A23 /* CabinCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CabinCondensed-Bold.ttf"; sourceTree = "<group>"; };
-		0420C1D41EF3C084002A6A23 /* Neou-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neou-Thin.ttf"; sourceTree = "<group>"; };
-		0420C1DE1EF3C0B9002A6A23 /* FeHandwriting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeHandwriting.h; sourceTree = "<group>"; };
-		0420C1DF1EF3C0B9002A6A23 /* FeHandwriting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeHandwriting.m; sourceTree = "<group>"; };
-		0420C1E11EF3C0C1002A6A23 /* FeRollingLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeRollingLoader.h; sourceTree = "<group>"; };
-		0420C1E21EF3C0C1002A6A23 /* FeRollingLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeRollingLoader.m; sourceTree = "<group>"; };
-		0420C1E41EF3C0C8002A6A23 /* FeZeroLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeZeroLoader.h; sourceTree = "<group>"; };
-		0420C1E51EF3C0C8002A6A23 /* FeZeroLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeZeroLoader.m; sourceTree = "<group>"; };
-		0420C1E71EF3C0CF002A6A23 /* FeEqualize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeEqualize.h; sourceTree = "<group>"; };
-		0420C1E81EF3C0CF002A6A23 /* FeEqualize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeEqualize.m; sourceTree = "<group>"; };
-		0420C1EA1EF3C0D7002A6A23 /* FeHourGlass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeHourGlass.h; sourceTree = "<group>"; };
-		0420C1EB1EF3C0D7002A6A23 /* FeHourGlass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeHourGlass.m; sourceTree = "<group>"; };
-		0420C1ED1EF3C0DF002A6A23 /* FeWifiManHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeWifiManHub.h; sourceTree = "<group>"; };
-		0420C1EE1EF3C0DF002A6A23 /* FeWifiManHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeWifiManHub.m; sourceTree = "<group>"; };
-		0420C1EF1EF3C0DF002A6A23 /* FeWifiManHub.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeWifiManHub.xib; sourceTree = "<group>"; };
-		0420C1F21EF3C0E6002A6A23 /* FeThreeDotGlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeThreeDotGlow.h; sourceTree = "<group>"; };
-		0420C1F31EF3C0E6002A6A23 /* FeThreeDotGlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeThreeDotGlow.m; sourceTree = "<group>"; };
-		0420C1F51EF3C0EF002A6A23 /* FeVietNamLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeVietNamLoader.h; sourceTree = "<group>"; };
-		0420C1F61EF3C0EF002A6A23 /* FeVietNamLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeVietNamLoader.m; sourceTree = "<group>"; };
-		0420C1F71EF3C0EF002A6A23 /* FeVietNamBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeVietNamBar.h; sourceTree = "<group>"; };
-		0420C1F81EF3C0EF002A6A23 /* FeVietNamBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeVietNamBar.m; sourceTree = "<group>"; };
-		0420C1FB1EF3C0FB002A6A23 /* FeLoadingIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeLoadingIcon.h; sourceTree = "<group>"; };
-		0420C1FC1EF3C0FB002A6A23 /* FeLoadingIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeLoadingIcon.m; sourceTree = "<group>"; };
-		0420C1FD1EF3C0FB002A6A23 /* FeLoadingIconBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeLoadingIconBox.h; sourceTree = "<group>"; };
-		0420C1FE1EF3C0FB002A6A23 /* FeLoadingIconBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeLoadingIconBox.m; sourceTree = "<group>"; };
-		0420C2011EF3C104002A6A23 /* FeSpinnerTenDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeSpinnerTenDot.h; sourceTree = "<group>"; };
-		0420C2021EF3C104002A6A23 /* FeSpinnerTenDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeSpinnerTenDot.m; sourceTree = "<group>"; };
-		0420C2031EF3C104002A6A23 /* FeTenDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeTenDot.h; sourceTree = "<group>"; };
-		0420C2041EF3C104002A6A23 /* FeTenDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeTenDot.m; sourceTree = "<group>"; };
-		0420C2081EF3C120002A6A23 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
-		0420C2091EF3C120002A6A23 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
-		0420C20A1EF3C120002A6A23 /* UIColor+flat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+flat.h"; sourceTree = "<group>"; };
-		0420C20B1EF3C120002A6A23 /* UIColor+flat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+flat.m"; sourceTree = "<group>"; };
 		0424AD011EA9D56A00729350 /* HealthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthViewController.h; sourceTree = "<group>"; };
 		0424AD021EA9D56A00729350 /* HealthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthViewController.m; sourceTree = "<group>"; };
 		0424AD041EA9DADF00729350 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
@@ -214,6 +171,21 @@
 		048679321EB97CB40006186F /* LCPanNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPanNavigationController.m; sourceTree = "<group>"; };
 		048679331EB97CB40006186F /* UIView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapshot.h"; sourceTree = "<group>"; };
 		048679341EB97CB40006186F /* UIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
+		049896131F1F375200D11791 /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVOSCloud.framework; path = "Pods/../build/Debug-iphoneos/AVOSCloud/AVOSCloud.framework"; sourceTree = "<group>"; };
+		049896151F1F375800D11791 /* AVOSCloudIM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVOSCloudIM.framework; path = "Pods/../build/Debug-iphoneos/AVOSCloudIM/AVOSCloudIM.framework"; sourceTree = "<group>"; };
+		049896171F1F375F00D11791 /* AVOSCloudCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVOSCloudCrashReporting.framework; path = "Pods/../build/Debug-iphoneos/AVOSCloudCrashReporting/AVOSCloudCrashReporting.framework"; sourceTree = "<group>"; };
+		049896191F1F376400D11791 /* BButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BButton.framework; path = "../../../../Library/Developer/Xcode/DerivedData/FengYingJie-ftvydqnadfghhmcgsbyfdgdhayzm/Build/Products/Debug-iphonesimulator/BButton/BButton.framework"; sourceTree = "<group>"; };
+		0498961B1F1F376B00D11791 /* SDAutoLayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDAutoLayout.framework; path = "../../../../Library/Developer/Xcode/DerivedData/FengYingJie-ftvydqnadfghhmcgsbyfdgdhayzm/Build/Products/Debug-iphonesimulator/SDAutoLayout/SDAutoLayout.framework"; sourceTree = "<group>"; };
+		0498961D1F1F37E500D11791 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0498961F1F1F37F000D11791 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		049896211F1F37F900D11791 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		049896231F1F380200D11791 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		049896251F1F380A00D11791 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		049896271F1F381300D11791 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		049896291F1F381B00D11791 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0498962B1F1F382100D11791 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0498962D1F1F449000D11791 /* FYJAvCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYJAvCloud.h; sourceTree = "<group>"; };
+		0498962E1F1F449000D11791 /* FYJAvCloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYJAvCloud.m; sourceTree = "<group>"; };
 		04A3F7531E9F19DE00E1E542 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		04A3F7561E9F1A8300E1E542 /* VPNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPNViewController.h; sourceTree = "<group>"; };
 		04A3F7571E9F1A8300E1E542 /* VPNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPNViewController.m; sourceTree = "<group>"; };
@@ -225,8 +197,18 @@
 		04C212461E8A45B200F7016C /* YJBirthday.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJBirthday.m; sourceTree = "<group>"; };
 		04CFF7A71E8B4EDC00CE576F /* YJWiFiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJWiFiViewController.h; sourceTree = "<group>"; };
 		04CFF7A81E8B4EDC00CE576F /* YJWiFiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJWiFiViewController.m; sourceTree = "<group>"; };
-		04EDF8C41EA5C6CE0072B86F /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
-		04EDF8C51EA5C6CE0072B86F /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		04E9E5C61F04C97D0018CF8B /* HSDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSDownloadManager.h; sourceTree = "<group>"; };
+		04E9E5C71F04C97D0018CF8B /* HSDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSDownloadManager.m; sourceTree = "<group>"; };
+		04E9E5C81F04C97D0018CF8B /* HSSessionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSSessionModel.h; sourceTree = "<group>"; };
+		04E9E5C91F04C97D0018CF8B /* HSSessionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSSessionModel.m; sourceTree = "<group>"; };
+		04E9E5CB1F04C97D0018CF8B /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		04E9E5CC1F04C97D0018CF8B /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		04E9E5D01F04C9A80018CF8B /* DonwViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonwViewController.h; sourceTree = "<group>"; };
+		04E9E5D11F04C9A80018CF8B /* DonwViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonwViewController.m; sourceTree = "<group>"; };
+		04E9E5D21F04C9A80018CF8B /* DonwViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DonwViewController.xib; sourceTree = "<group>"; };
+		04E9E5D51F04CAE60018CF8B /* DownTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownTableViewCell.h; sourceTree = "<group>"; };
+		04E9E5D61F04CAE60018CF8B /* DownTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownTableViewCell.m; sourceTree = "<group>"; };
+		04E9E5D71F04CAE60018CF8B /* DownTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DownTableViewCell.xib; sourceTree = "<group>"; };
 		93DF659C65B607F8A2E00C2C /* Pods-FengYingJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FengYingJie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FengYingJie/Pods-FengYingJie.debug.xcconfig"; sourceTree = "<group>"; };
 		DC4BEB686ACB258742E917D3 /* Pods_FengYingJie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FengYingJie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -236,6 +218,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0498962C1F1F382100D11791 /* CoreLocation.framework in Frameworks */,
+				0498962A1F1F381B00D11791 /* CoreTelephony.framework in Frameworks */,
+				049896281F1F381300D11791 /* MobileCoreServices.framework in Frameworks */,
+				049896261F1F380A00D11791 /* SystemConfiguration.framework in Frameworks */,
+				049896241F1F380200D11791 /* libsqlite3.tbd in Frameworks */,
+				049896221F1F37F900D11791 /* libicucore.tbd in Frameworks */,
+				049896201F1F37F000D11791 /* libc++.tbd in Frameworks */,
+				0498961E1F1F37E500D11791 /* libz.tbd in Frameworks */,
+				0498961C1F1F376B00D11791 /* SDAutoLayout.framework in Frameworks */,
+				0498961A1F1F376400D11791 /* BButton.framework in Frameworks */,
+				049896181F1F375F00D11791 /* AVOSCloudCrashReporting.framework in Frameworks */,
+				049896161F1F375800D11791 /* AVOSCloudIM.framework in Frameworks */,
+				049896141F1F375200D11791 /* AVOSCloud.framework in Frameworks */,
 				0420C0D91EF3AEA7002A6A23 /* UIKit.framework in Frameworks */,
 				0420C0D71EF3AE9F002A6A23 /* Foundation.framework in Frameworks */,
 				0420C0D51EF3AE95002A6A23 /* QuartzCore.framework in Frameworks */,
@@ -303,76 +298,6 @@
 			name = "玩玩";
 			sourceTree = "<group>";
 		};
-		0420C1CB1EF3C02E002A6A23 /* FeSpinner */ = {
-			isa = PBXGroup;
-			children = (
-				0420C2071EF3C10F002A6A23 /* Tool */,
-				0420C1DD1EF3C088002A6A23 /* Type */,
-				0420C1CC1EF3C073002A6A23 /* Resource */,
-			);
-			name = FeSpinner;
-			sourceTree = "<group>";
-		};
-		0420C1CC1EF3C073002A6A23 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				0420C1CD1EF3C084002A6A23 /* WifiMan_Sign_4@2x.png */,
-				0420C1CE1EF3C084002A6A23 /* WifiMan_Sign_3@2x.png */,
-				0420C1CF1EF3C084002A6A23 /* WifiMan_Sign_2@2x.png */,
-				0420C1D01EF3C084002A6A23 /* WifiMan_Sign_1@2x.png */,
-				0420C1D11EF3C084002A6A23 /* wifimanhub_grayscale@2x.png */,
-				0420C1D21EF3C084002A6A23 /* wifimanhub@2x.png */,
-				0420C1D31EF3C084002A6A23 /* CabinCondensed-Bold.ttf */,
-				0420C1D41EF3C084002A6A23 /* Neou-Thin.ttf */,
-			);
-			name = Resource;
-			sourceTree = "<group>";
-		};
-		0420C1DD1EF3C088002A6A23 /* Type */ = {
-			isa = PBXGroup;
-			children = (
-				0420C1DE1EF3C0B9002A6A23 /* FeHandwriting.h */,
-				0420C1DF1EF3C0B9002A6A23 /* FeHandwriting.m */,
-				0420C1E11EF3C0C1002A6A23 /* FeRollingLoader.h */,
-				0420C1E21EF3C0C1002A6A23 /* FeRollingLoader.m */,
-				0420C1E41EF3C0C8002A6A23 /* FeZeroLoader.h */,
-				0420C1E51EF3C0C8002A6A23 /* FeZeroLoader.m */,
-				0420C1E71EF3C0CF002A6A23 /* FeEqualize.h */,
-				0420C1E81EF3C0CF002A6A23 /* FeEqualize.m */,
-				0420C1EA1EF3C0D7002A6A23 /* FeHourGlass.h */,
-				0420C1EB1EF3C0D7002A6A23 /* FeHourGlass.m */,
-				0420C1ED1EF3C0DF002A6A23 /* FeWifiManHub.h */,
-				0420C1EE1EF3C0DF002A6A23 /* FeWifiManHub.m */,
-				0420C1EF1EF3C0DF002A6A23 /* FeWifiManHub.xib */,
-				0420C1F21EF3C0E6002A6A23 /* FeThreeDotGlow.h */,
-				0420C1F31EF3C0E6002A6A23 /* FeThreeDotGlow.m */,
-				0420C1F51EF3C0EF002A6A23 /* FeVietNamLoader.h */,
-				0420C1F61EF3C0EF002A6A23 /* FeVietNamLoader.m */,
-				0420C1F71EF3C0EF002A6A23 /* FeVietNamBar.h */,
-				0420C1F81EF3C0EF002A6A23 /* FeVietNamBar.m */,
-				0420C1FB1EF3C0FB002A6A23 /* FeLoadingIcon.h */,
-				0420C1FC1EF3C0FB002A6A23 /* FeLoadingIcon.m */,
-				0420C1FD1EF3C0FB002A6A23 /* FeLoadingIconBox.h */,
-				0420C1FE1EF3C0FB002A6A23 /* FeLoadingIconBox.m */,
-				0420C2011EF3C104002A6A23 /* FeSpinnerTenDot.h */,
-				0420C2021EF3C104002A6A23 /* FeSpinnerTenDot.m */,
-				0420C2031EF3C104002A6A23 /* FeTenDot.h */,
-				0420C2041EF3C104002A6A23 /* FeTenDot.m */,
-			);
-			name = Type;
-			sourceTree = "<group>";
-		};
-		0420C2071EF3C10F002A6A23 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				0420C2081EF3C120002A6A23 /* FXBlurView.h */,
-				0420C2091EF3C120002A6A23 /* FXBlurView.m */,
-				0420C20A1EF3C120002A6A23 /* UIColor+flat.h */,
-				0420C20B1EF3C120002A6A23 /* UIColor+flat.m */,
-			);
-			name = Tool;
-			sourceTree = "<group>";
-		};
 		0424AD001EA9D55300729350 /* 健康 */ = {
 			isa = PBXGroup;
 			children = (
@@ -426,8 +351,6 @@
 				0449AFE21E8362120071E9E8 /* LaunchScreen.storyboard */,
 				0473EAEA1EF123F3009097C9 /* SWRevealViewController */,
 				0486792E1EB97CB40006186F /* PanNavigationController */,
-				04EDF8C41EA5C6CE0072B86F /* BaseNavigationController.h */,
-				04EDF8C51EA5C6CE0072B86F /* BaseNavigationController.m */,
 				0449AFE51E8362120071E9E8 /* Info.plist */,
 				0478766E1E8CEA5000252CF8 /* Header.h */,
 				0449B0081E8368340071E9E8 /* Base */,
@@ -439,7 +362,7 @@
 		0449AFD41E8362120071E9E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0420C1CB1EF3C02E002A6A23 /* FeSpinner */,
+				04E9E5C51F04C97D0018CF8B /* HSDownloadManager */,
 				041DE99B1E9CBEF900C00502 /* ZJScrollPageView */,
 				0449B1211E837EA60071E9E8 /* WZBDatePicker */,
 				0449AFD51E8362120071E9E8 /* main.m */,
@@ -470,6 +393,8 @@
 			children = (
 				0449B0091E8368680071E9E8 /* UIViewController+FYJViewController.h */,
 				0449B00A1E8368680071E9E8 /* UIViewController+FYJViewController.m */,
+				0498962D1F1F449000D11791 /* FYJAvCloud.h */,
+				0498962E1F1F449000D11791 /* FYJAvCloud.m */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -526,6 +451,12 @@
 			children = (
 				0473EAEF1EF124AD009097C9 /* LeftViewController.h */,
 				0473EAF01EF124AD009097C9 /* LeftViewController.m */,
+				04E9E5D01F04C9A80018CF8B /* DonwViewController.h */,
+				04E9E5D11F04C9A80018CF8B /* DonwViewController.m */,
+				04E9E5D21F04C9A80018CF8B /* DonwViewController.xib */,
+				04E9E5D51F04CAE60018CF8B /* DownTableViewCell.h */,
+				04E9E5D61F04CAE60018CF8B /* DownTableViewCell.m */,
+				04E9E5D71F04CAE60018CF8B /* DownTableViewCell.xib */,
 			);
 			name = "左侧";
 			sourceTree = "<group>";
@@ -568,9 +499,43 @@
 			name = WIFi;
 			sourceTree = "<group>";
 		};
+		04E9E5C51F04C97D0018CF8B /* HSDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				04E9E5C61F04C97D0018CF8B /* HSDownloadManager.h */,
+				04E9E5C71F04C97D0018CF8B /* HSDownloadManager.m */,
+				04E9E5C81F04C97D0018CF8B /* HSSessionModel.h */,
+				04E9E5C91F04C97D0018CF8B /* HSSessionModel.m */,
+				04E9E5CA1F04C97D0018CF8B /* MD5 */,
+			);
+			path = HSDownloadManager;
+			sourceTree = "<group>";
+		};
+		04E9E5CA1F04C97D0018CF8B /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				04E9E5CB1F04C97D0018CF8B /* NSString+Hash.h */,
+				04E9E5CC1F04C97D0018CF8B /* NSString+Hash.m */,
+			);
+			path = MD5;
+			sourceTree = "<group>";
+		};
 		2AA877081613BC8AB30C1676 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0498962B1F1F382100D11791 /* CoreLocation.framework */,
+				049896291F1F381B00D11791 /* CoreTelephony.framework */,
+				049896271F1F381300D11791 /* MobileCoreServices.framework */,
+				049896251F1F380A00D11791 /* SystemConfiguration.framework */,
+				049896231F1F380200D11791 /* libsqlite3.tbd */,
+				049896211F1F37F900D11791 /* libicucore.tbd */,
+				0498961F1F1F37F000D11791 /* libc++.tbd */,
+				0498961D1F1F37E500D11791 /* libz.tbd */,
+				0498961B1F1F376B00D11791 /* SDAutoLayout.framework */,
+				049896191F1F376400D11791 /* BButton.framework */,
+				049896171F1F375F00D11791 /* AVOSCloudCrashReporting.framework */,
+				049896151F1F375800D11791 /* AVOSCloudIM.framework */,
+				049896131F1F375200D11791 /* AVOSCloud.framework */,
 				0420C0D81EF3AEA7002A6A23 /* UIKit.framework */,
 				0420C0D61EF3AE9F002A6A23 /* Foundation.framework */,
 				0420C0D41EF3AE95002A6A23 /* QuartzCore.framework */,
@@ -707,19 +672,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0420C1DA1EF3C084002A6A23 /* wifimanhub@2x.png in Resources */,
-				0420C1DB1EF3C084002A6A23 /* CabinCondensed-Bold.ttf in Resources */,
+				04E9E5D41F04C9A80018CF8B /* DonwViewController.xib in Resources */,
 				0449AFE41E8362120071E9E8 /* LaunchScreen.storyboard in Resources */,
+				04E9E5D91F04CAE60018CF8B /* DownTableViewCell.xib in Resources */,
 				0449AFE11E8362120071E9E8 /* Assets.xcassets in Resources */,
-				0420C1D61EF3C084002A6A23 /* WifiMan_Sign_3@2x.png in Resources */,
-				0420C1D51EF3C084002A6A23 /* WifiMan_Sign_4@2x.png in Resources */,
-				0420C1D91EF3C084002A6A23 /* wifimanhub_grayscale@2x.png in Resources */,
 				0477E8851E851A88001AC4DF /* TheIunarCalendarViewController.xib in Resources */,
 				0449B1201E837DFF0071E9E8 /* FYJTheConstellationViewController.xib in Resources */,
-				0420C1D81EF3C084002A6A23 /* WifiMan_Sign_1@2x.png in Resources */,
-				0420C1F11EF3C0DF002A6A23 /* FeWifiManHub.xib in Resources */,
-				0420C1D71EF3C084002A6A23 /* WifiMan_Sign_2@2x.png in Resources */,
-				0420C1DC1EF3C084002A6A23 /* Neou-Thin.ttf in Resources */,
 				0477E88A1E851D54001AC4DF /* CalendarCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -793,53 +751,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0498962F1F1F449000D11791 /* FYJAvCloud.m in Sources */,
 				041DE9AD1E9CBEF900C00502 /* UIView+ZJFrame.m in Sources */,
+				04E9E5CE1F04C97D0018CF8B /* HSSessionModel.m in Sources */,
 				048679371EB97CB40006186F /* UIView+Snapshot.m in Sources */,
 				041DE9C11E9CC08500C00502 /* ZJPageViewController.m in Sources */,
-				0420C1FA1EF3C0EF002A6A23 /* FeVietNamBar.m in Sources */,
 				041DE9B41E9CBEF900C00502 /* ZJTitleView.m in Sources */,
 				0477E8841E851A88001AC4DF /* TheIunarCalendarViewController.m in Sources */,
-				0420C2061EF3C104002A6A23 /* FeTenDot.m in Sources */,
 				0449B1241E837EA60071E9E8 /* WZBDatePicker.m in Sources */,
 				0424AD031EA9D56A00729350 /* HealthViewController.m in Sources */,
 				0449B11F1E837DFF0071E9E8 /* FYJTheConstellationViewController.m in Sources */,
-				04EDF8C61EA5C6CE0072B86F /* BaseNavigationController.m in Sources */,
-				0420C1E91EF3C0CF002A6A23 /* FeEqualize.m in Sources */,
-				0420C20C1EF3C120002A6A23 /* FXBlurView.m in Sources */,
 				041DE9B01E9CBEF900C00502 /* ZJContentView.m in Sources */,
-				0420C1FF1EF3C0FB002A6A23 /* FeLoadingIcon.m in Sources */,
 				041DE9B11E9CBEF900C00502 /* ZJScrollPageView.m in Sources */,
-				0420C1E61EF3C0C8002A6A23 /* FeZeroLoader.m in Sources */,
 				041DE9AF1E9CBEF900C00502 /* ZJCollectionView.m in Sources */,
-				0420C1F91EF3C0EF002A6A23 /* FeVietNamLoader.m in Sources */,
+				04E9E5CF1F04C97D0018CF8B /* NSString+Hash.m in Sources */,
 				0449AFD91E8362120071E9E8 /* AppDelegate.m in Sources */,
 				04A3F7581E9F1A8300E1E542 /* VPNViewController.m in Sources */,
 				041DE9B21E9CBEF900C00502 /* ZJScrollSegmentView.m in Sources */,
-				0420C1EC1EF3C0D7002A6A23 /* FeHourGlass.m in Sources */,
 				0424AD131EA9F2B500729350 /* HealthKitManage.m in Sources */,
 				041DE9C01E9CC08500C00502 /* ZJPageTableViewController.m in Sources */,
 				041DE9B31E9CBEF900C00502 /* ZJSegmentStyle.m in Sources */,
-				0420C2001EF3C0FB002A6A23 /* FeLoadingIconBox.m in Sources */,
-				0420C1E01EF3C0B9002A6A23 /* FeHandwriting.m in Sources */,
-				0420C1F41EF3C0E6002A6A23 /* FeThreeDotGlow.m in Sources */,
 				041DE9BF1E9CC08500C00502 /* ZJPageCollectionViewController.m in Sources */,
 				048679361EB97CB40006186F /* LCPanNavigationController.m in Sources */,
 				04CFF7A91E8B4EDC00CE576F /* YJWiFiViewController.m in Sources */,
-				0420C1F01EF3C0DF002A6A23 /* FeWifiManHub.m in Sources */,
 				041DE9B81E9CBF5500C00502 /* PlayViewController.m in Sources */,
 				048679351EB97CB40006186F /* LCPanGestureRecognizer.m in Sources */,
-				0420C1E31EF3C0C1002A6A23 /* FeRollingLoader.m in Sources */,
 				0449AFD61E8362120071E9E8 /* main.m in Sources */,
+				04E9E5CD1F04C97D0018CF8B /* HSDownloadManager.m in Sources */,
 				041DE9AE1E9CBEF900C00502 /* UIViewController+ZJScrollPageController.m in Sources */,
 				04C212411E8A132200F7016C /* UICalender.m in Sources */,
-				0420C2051EF3C104002A6A23 /* FeSpinnerTenDot.m in Sources */,
-				0420C20D1EF3C120002A6A23 /* UIColor+flat.m in Sources */,
 				0449B00B1E8368680071E9E8 /* UIViewController+FYJViewController.m in Sources */,
 				0473EAED1EF123F3009097C9 /* SWRevealViewController.m in Sources */,
+				04E9E5D31F04C9A80018CF8B /* DonwViewController.m in Sources */,
 				0424AD161EA9FDF500729350 /* CHHealthKitManager.m in Sources */,
 				04C212441E8A137E00F7016C /* DataCalender.m in Sources */,
 				0473EAF11EF124AD009097C9 /* LeftViewController.m in Sources */,
 				04C212471E8A45B200F7016C /* YJBirthday.m in Sources */,
+				04E9E5D81F04CAE60018CF8B /* DownTableViewCell.m in Sources */,
 				0477E8891E851D54001AC4DF /* CalendarCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -986,9 +934,15 @@
 				CODE_SIGN_ENTITLEMENTS = FengYingJie/FengYingJie.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = G3PWG2CJ46;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AVOSCloud",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AVOSCloudIM",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AVOSCloudCrashReporting",
+				);
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Mac/Desktop/个人/FengYingJie/FengYingJie/Header.h";
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/FengYingJie/Header.h";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/My-iDevice-Tools-master/**";
 				INFOPLIST_FILE = FengYingJie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1055,9 +1009,15 @@
 				CODE_SIGN_ENTITLEMENTS = FengYingJie/FengYingJie.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = G3PWG2CJ46;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AVOSCloud",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AVOSCloudIM",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AVOSCloudCrashReporting",
+				);
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/Mac/Desktop/个人/FengYingJie/FengYingJie/Header.h";
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/FengYingJie/Header.h";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/My-iDevice-Tools-master/**";
 				INFOPLIST_FILE = FengYingJie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

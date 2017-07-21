@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "DonwViewController.h"
 @interface LeftViewController : UIViewController
 
 @end

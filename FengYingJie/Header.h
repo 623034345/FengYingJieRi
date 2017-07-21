@@ -8,13 +8,16 @@
 
 #ifndef Header_h
 #define Header_h
-#import "BaseNavigationController.h"
+
 
 #import "UIViewController+FYJViewController.h"
 //键盘监听
 #import "IQKeyboardManager.h"
 #import "IQKeyboardReturnKeyHandler.h"
 #import "SDAutoLayout.h"
+#import <AVOSCloud/AVOSCloud.h>
+#import "FYJAvCloud.h"
+
 //#import "YYKit.h"
 //重写NSLog,Debug模式下打印日志和当前行数
 #if DEBUG

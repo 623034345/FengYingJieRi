@@ -14,15 +14,14 @@
 #import "VPNViewController.h"
 #import "UIImageView+WebCache.h"
 #import "LeftViewController.h"
-#import "FeHandwriting.h"
-#import "UIColor+flat.h"
+#define UIDeviceOrientationIsPortrait(orientation)  ((orientation) == UIDeviceOrientationPortrait || (orientation) == UIDeviceOrientationPortraitUpsideDown)
+#define UIDeviceOrientationIsLandscape(orientation) ((orientation) == UIDeviceOrientationLandscapeLeft || (orientation) == UIDeviceOrientationLandscapeRight)
 //#import "SetUpViewController.h"
 @interface HealthViewController ()<UITextFieldDelegate>{
     CHHealthKitManager *_manager;
     dispatch_source_t _timer;
 
 }
-@property (strong, nonatomic) FeHandwriting *handwritingLoader;
 @property (nonatomic,strong) HKHealthStore *healthStore;
 @property (nonatomic, strong) UILabel *pedoLab;
 @property (nonatomic, strong) UITextField *textField;
@@ -39,12 +38,98 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+    [self addNextBtnWithTitle:@"保存数据" fuction:@selector(save)];
+
     [self jiankang];
     [self creatBackBtn];
-    [self.view addSubview:self.handwritingLoader];
   
+    [self getData];
 
+}
+-(void)save
+{
+    [FYJAvCloud getDataWithClassName:@"FYJ_TABLE" WhereForKey:@"content" Eqyato:@"你好啊" QueryType:QueryTypeContainsStr Success:^(id object) {
+        NSLog(@"%@",object);
+    } Faill:^(id faillStr) {
+        
+    }];
+// 
+//    [FYJAvCloud getDataWithClassName:@"FYJ_TABLE" objectId:nil success:^(id object) {
+//        NSLog(@"%@",object);
+//    } faill:^(id faillStr) {
+//        NSLog(@"错误:%@",faillStr);
+//    }];
+}
+-(void)getData
+{
+
+    
+}
+- (void)viewWillLayoutSubviews
+
+{
+    
+    [self _shouldRotateToOrientation:(UIDeviceOrientation)[UIApplication sharedApplication].statusBarOrientation];
+    
+}
+#pragma mark - 屏幕翻转就会调用
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
+    
+    // 记录当前是横屏还是竖屏
+//    BOOL isLandscape = size.width == WIDTH;
+    
+    // 翻转的时间
+    CGFloat duration = [coordinator transitionDuration];
+    
+    [UIView animateWithDuration:duration animations:^{
+        
+        // 1.设置dockview的frame
+        
+        // 2.屏幕翻转后(设置完dockview的frame)要重新设置contentView的x值
+        
+    }];
+}
+-(void)_shouldRotateToOrientation:(UIDeviceOrientation)orientation {
+    if (orientation == UIDeviceOrientationPortrait ||orientation ==
+        UIDeviceOrientationPortraitUpsideDown) { // 竖屏
+        NSLog(@"竖屏");
+
+    } else { // 横屏
+        NSLog(@"横屏");
+
+    }
+}
+- (void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation duration:(NSTimeInterval)duration {
+
+    
+    switch (interfaceOrientation) {
+        caseUIInterfaceOrientationPortrait:
+            //home健在下
+            
+            NSLog(@"home健在下");
+            break;
+        caseUIInterfaceOrientationPortraitUpsideDown:
+            //home健在上
+            NSLog(@"home健在上");
+
+            break;
+        caseUIInterfaceOrientationLandscapeLeft:
+            //home健在左
+            NSLog(@"home健在左");
+
+
+            break;
+        caseUIInterfaceOrientationLandscapeRight:
+            //home健在右
+            NSLog(@"home健在右");
+
+
+            break;
+        default:
+            break;
+            
+            
+    }
 }
 -(void)creatBackBtn
 {
@@ -361,20 +446,7 @@
         }
     }
 }
--(FeHandwriting *)handwritingLoader
-{
-    if (!_handwritingLoader) {
 
-        _handwritingLoader = [[FeHandwriting alloc] initWithView:self.view];
-        
-        [_handwritingLoader showWhileExecutingBlock:^{
-            [self myTask];
-        } completion:^{
-            [_handwritingLoader removeFromSuperview];
-        }];
-    }
-    return _handwritingLoader;
-}
 - (void)myTask
 {
     // Do something usefull in here instead of sleeping ...

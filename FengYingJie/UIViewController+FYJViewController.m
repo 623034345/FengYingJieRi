@@ -68,13 +68,13 @@
 {
     UIButton *saveBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     saveBtn.backgroundColor = [UIColor clearColor];
-    saveBtn.bounds = CGRectMake(0, 0, 70, 44);
+    saveBtn.bounds = CGRectMake(0, 0, 100, 44);
     [saveBtn.titleLabel setFont:[UIFont systemFontOfSize:14]];
     [saveBtn setTitle:titleStr
              forState:UIControlStateNormal];
     [saveBtn setTitle:titleStr
              forState:UIControlStateHighlighted];
-    [saveBtn setTitleColor:[UIColor whiteColor]
+    [saveBtn setTitleColor:[UIColor blueColor]
                   forState:UIControlStateNormal];
     [saveBtn setTitleColor:[UIColor colorWithRed:239 green:239 blue:239 alpha:1]
                   forState:UIControlStateHighlighted];

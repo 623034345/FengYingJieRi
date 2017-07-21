@@ -1,4 +1,23 @@
 PODS:
+  - AVOSCloud (3.8.2)
+  - AVOSCloudCrashReporting (3.8.2):
+    - AVOSCloud (= 3.8.2)
+    - AVOSCloudCrashReporting/_ARC (= 3.8.2)
+    - AVOSCloudCrashReporting/_NOARC (= 3.8.2)
+  - AVOSCloudCrashReporting/_ARC (3.8.2):
+    - AVOSCloud (= 3.8.2)
+    - AVOSCloudCrashReporting/_NOARC (= 3.8.2)
+  - AVOSCloudCrashReporting/_NOARC (3.8.2):
+    - AVOSCloud (= 3.8.2)
+  - AVOSCloudIM (3.8.2):
+    - AVOSCloud (= 3.8.2)
+    - AVOSCloudIM/_ARC (= 3.8.2)
+    - AVOSCloudIM/_NOARC (= 3.8.2)
+  - AVOSCloudIM/_ARC (3.8.2):
+    - AVOSCloud (= 3.8.2)
+    - AVOSCloudIM/_NOARC (= 3.8.2)
+  - AVOSCloudIM/_NOARC (3.8.2):
+    - AVOSCloud (= 3.8.2)
   - BButton (4.0.2)
   - CardIO (5.4.1)
   - IQKeyboardManager (4.0.8)
@@ -13,6 +32,9 @@ PODS:
   - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
+  - AVOSCloud
+  - AVOSCloudCrashReporting
+  - AVOSCloudIM
   - BButton
   - CardIO
   - IQKeyboardManager (~> 4.0.5)
@@ -23,6 +45,9 @@ DEPENDENCIES:
   - YYKit
 
 SPEC CHECKSUMS:
+  AVOSCloud: fc3a1ae341a1421b66f8828fbc9850ddb6eaaa7c
+  AVOSCloudCrashReporting: 6c1d7e2381bdbb12456c773898c89390953edacc
+  AVOSCloudIM: 7c8ba883afde0f0bceabd5aa9856d407bb4b06ee
   BButton: ab0f2ed3b998ae73c5188b57d270d81e4a1eeb27
   CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
   IQKeyboardManager: 1a8189fa153bf09044355ee0ad36826f6767e7f7
@@ -32,6 +57,6 @@ SPEC CHECKSUMS:
   SDWebImage: e379f33106cf8d6766f970c0ef1c3fb609c94d78
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 61b4cf32fa059351bac511980578d50e7f2dfd23
+PODFILE CHECKSUM: acf8da78c83c8b2428ff37f660978f693d532862
 
 COCOAPODS: 1.1.1

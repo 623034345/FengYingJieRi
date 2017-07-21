@@ -14,17 +14,21 @@
 #import "PlayViewController.h"
 #import "VPNViewController.h"
 #import "HealthViewController.h"
-#import "BaseNavigationController.h"
 #import "HealthViewController.h"
 #import "LCPanNavigationController.h"
 #import "SWRevealViewController.h"
 #import "LeftViewController.h"
 #import "HealthViewController.h"
+#import <AVOSCloud/AVOSCloud.h>
 @interface AppDelegate ()
 
 @end
+static NSString *LeanCloudAppID = @"0wJUJQP9rlRwC866Os5Uu1NR-gzGzoHsz";
+static NSString *LeanCloudAppKey = @"irm0yEHES1BvUibMbQBWF9Gm";
+static NSString *LeanCloudMasterKey = @"cNRMyWAacVh3QEy6Fdc4EbXf";
 
 @implementation AppDelegate
+
 @synthesize window = _window;
 @synthesize viewController = _viewController;
 
@@ -68,6 +72,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    // 使用美国站点需要增加以下代码：
+    // [AVOSCloud setServiceRegion:AVServiceRegionUS];
+    
+    [AVOSCloud setApplicationId:LeanCloudAppID clientKey:LeanCloudAppKey];
+    [AVOSCloud setAllLogsEnabled:YES];
+    //跟踪统计应用的打开情况
+    [AVAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
     // Override point for customization after application launch.
     [[IQKeyboardManager sharedManager] setEnable:YES];
     [[IQKeyboardManager sharedManager] setEnableAutoToolbar:YES];
