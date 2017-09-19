@@ -24,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>CYWebviewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>IQKeyboardManager.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -62,11 +67,6 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>00249D9424FB1B65025563264AB1741F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>288A6E512ABA7B290C198795E7118F53</key>
 		<dict>
 			<key>primary</key>
@@ -82,7 +82,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>61064011CEA099C114F3E83AB7820B0B</key>
+		<key>4BBF3FD0E77B5D9EAA8694703C7F3A25</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -92,17 +92,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>883B7E96D9C0FF6D6EAFBB087FD11532</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>942C45249A2B483F86C14D65B1F250AE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AC83B39091D43370DF4BFA8C7E2BA9B9</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B60157EFF3C5AA03FA0EFD11AA3DCA0D</key>
+		<key>ABD043DD577B128A1826DB6B8A39F5B4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -112,7 +112,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>C56330562DBDF5912B3266BC6314D748</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>D8167FC80FB75998FEB9BCF29455230B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F9C858B048B0EDB0B295D47A31DC8663</key>
 		<dict>
 			<key>primary</key>
 			<true/>

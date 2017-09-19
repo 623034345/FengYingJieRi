@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F9C858B048B0EDB0B295D47A31DC8663'
-               BlueprintName = 'YYKit'
+               BlueprintIdentifier = 'C56330562DBDF5912B3266BC6314D748'
+               BlueprintName = 'CYWebviewController'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'YYKit.framework'>
+               BuildableName = 'CYWebviewController.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

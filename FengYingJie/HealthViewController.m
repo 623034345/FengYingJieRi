@@ -14,6 +14,8 @@
 #import "VPNViewController.h"
 #import "UIImageView+WebCache.h"
 #import "LeftViewController.h"
+#import "CYWebViewController.h"
+
 #define UIDeviceOrientationIsPortrait(orientation)  ((orientation) == UIDeviceOrientationPortrait || (orientation) == UIDeviceOrientationPortraitUpsideDown)
 #define UIDeviceOrientationIsLandscape(orientation) ((orientation) == UIDeviceOrientationLandscapeLeft || (orientation) == UIDeviceOrientationLandscapeRight)
 //#import "SetUpViewController.h"
@@ -44,16 +46,24 @@
     [self creatBackBtn];
   
     [self getData];
+    
+    
 
 }
 -(void)save
 {
-    [FYJAvCloud getDataWithClassName:@"FYJ_TABLE" WhereForKey:@"content" Eqyato:@"你好啊" QueryType:QueryTypeContainsStr Success:^(id object) {
-        NSLog(@"%@",object);
-    } Faill:^(id faillStr) {
-        
-    }];
-// 
+    
+    CYWebViewController *controller = [[CYWebViewController alloc] init];
+    controller.url = [NSURL URLWithString:@"http://zctx919.com/weixin/home_page.html"];
+    controller.loadingBarTintColor = [UIColor redColor];
+    controller.navigationButtonsHidden = NO;
+    [self.navigationController pushViewController:controller animated:YES];
+//    [FYJAvCloud getDataWithClassName:@"FYJ_TABLE" WhereForKey:@"content" Eqyato:@"你好啊" QueryType:QueryTypeContainsStr Success:^(id object) {
+//        NSLog(@"%@",object);
+//    } Faill:^(id faillStr) {
+//        
+//    }];
+//
 //    [FYJAvCloud getDataWithClassName:@"FYJ_TABLE" objectId:nil success:^(id object) {
 //        NSLog(@"%@",object);
 //    } faill:^(id faillStr) {
