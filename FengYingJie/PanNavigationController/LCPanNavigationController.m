@@ -105,32 +105,31 @@ static const NSString *contentFrameKey  = @"contentFrameKey";
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
 {
-    UIViewController *previousViewController = [self.viewControllers lastObject];
-    
-    if (previousViewController) {
-        
-        NSMutableDictionary *shotInfo = [NSMutableDictionary dictionary];
-        UIImage *barImage = [self barSnapshot];
-        
-        double delayInSeconds = animated ? 0.35 : 0.1; // 等按钮状态恢复到normal状态
-        dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
-        dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
-
-            UIImage *contentImage = [previousViewController.view snapshot];
-            
-            shotInfo[contentImageKey] = contentImage;
-            shotInfo[barImageKey] = barImage;
-            shotInfo[contentFrameKey] = [NSValue valueWithCGRect:previousViewController.view.frame];
-            
-            [self.shotStack addObject:shotInfo];
-        });
-    }
-    
-    // 动画标识，在动画的情况下，禁掉右滑手势
-    [self startAnimated:animated];
+//    UIViewController *previousViewController = [self.viewControllers lastObject];
+//    
+//    if (previousViewController) {
+//        
+//        NSMutableDictionary *shotInfo = [NSMutableDictionary dictionary];
+//        UIImage *barImage = [self barSnapshot];
+//        
+//        double delayInSeconds = animated ? 0.35 : 0.1; // 等按钮状态恢复到normal状态
+//        dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
+//        dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+//
+//            UIImage *contentImage = [previousViewController.view snapshot];
+//            
+//            shotInfo[contentImageKey] = contentImage;
+//            shotInfo[barImageKey] = barImage;
+//            shotInfo[contentFrameKey] = [NSValue valueWithCGRect:previousViewController.view.frame];
+//            
+//            [self.shotStack addObject:shotInfo];
+//        });
+//    }
+//    
+//    // 动画标识，在动画的情况下，禁掉右滑手势
+//    [self startAnimated:animated];
     
     if (self.viewControllers.count) { //避免一开始就隐藏了
-        viewController.hidesBottomBarWhenPushed = YES;
 //        viewController.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc]
 //                                                           initWithTitle:@"返回"
 //                                                           style:UIBarButtonItemStylePlain
@@ -146,6 +145,8 @@ static const NSString *contentFrameKey  = @"contentFrameKey";
         
         UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithCustomView:backBtn];
         viewController.navigationItem.leftBarButtonItem = backItem;
+        viewController.hidesBottomBarWhenPushed = YES;
+
     }
     
     

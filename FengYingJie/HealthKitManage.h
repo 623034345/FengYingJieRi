@@ -20,4 +20,5 @@
 //获取公里数
 - (void)getDistance:(void(^)(double value, NSError *error))completion;
 + (NSPredicate *)predicateForSamplesToday;
+- (void)fetchAllHealthDataByDay:(void (^)(double setup))queryResultBlock;
 @end

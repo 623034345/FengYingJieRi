@@ -15,7 +15,8 @@
 #import "UIImageView+WebCache.h"
 #import "LeftViewController.h"
 #import "CYWebViewController.h"
-
+#import "VideosViewController.h"
+#import "MLHealthManager.h"
 #define UIDeviceOrientationIsPortrait(orientation)  ((orientation) == UIDeviceOrientationPortrait || (orientation) == UIDeviceOrientationPortraitUpsideDown)
 #define UIDeviceOrientationIsLandscape(orientation) ((orientation) == UIDeviceOrientationLandscapeLeft || (orientation) == UIDeviceOrientationLandscapeRight)
 //#import "SetUpViewController.h"
@@ -36,39 +37,80 @@
 
 @implementation HealthViewController
 @synthesize viewController = _viewController;
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    //显示NavigationBar
+    [self.navigationController.navigationBar setHidden:NO];
+    self.navigationItem.title = @"健康";
+    [self gongli];
+    [self bushu];
+    
+    MLHealthManager *manager = [[MLHealthManager alloc] init];
+    [manager getIphoneHealthData];
+}
 
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self addNextBtnWithTitle:@"保存数据" fuction:@selector(save)];
+    [self addNextBtnWithTitle:@"视频" fuction:@selector(save)];
 
     [self jiankang];
-    [self creatBackBtn];
   
     [self getData];
     
     
 
 }
--(void)save
-{
+-(void)save{
     
-    CYWebViewController *controller = [[CYWebViewController alloc] init];
-    controller.url = [NSURL URLWithString:@"http://zctx919.com/weixin/home_page.html"];
-    controller.loadingBarTintColor = [UIColor redColor];
-    controller.navigationButtonsHidden = NO;
-    [self.navigationController pushViewController:controller animated:YES];
-//    [FYJAvCloud getDataWithClassName:@"FYJ_TABLE" WhereForKey:@"content" Eqyato:@"你好啊" QueryType:QueryTypeContainsStr Success:^(id object) {
-//        NSLog(@"%@",object);
-//    } Faill:^(id faillStr) {
-//        
-//    }];
-//
-//    [FYJAvCloud getDataWithClassName:@"FYJ_TABLE" objectId:nil success:^(id object) {
-//        NSLog(@"%@",object);
-//    } faill:^(id faillStr) {
-//        NSLog(@"错误:%@",faillStr);
-//    }];
+    HealthKitManage *manage = [HealthKitManage shareInstance];
+    [manage fetchAllHealthDataByDay:^(double setup) {
+        NSLog(@"防作弊数据: %f",setup);
+    }];
+    return;
+    /*
+     系统定义的type：
+     
+     kCATransitionFade //淡出
+     kCATransitionMoveIn //覆盖原图
+     kCATransitionPush //推出
+     kCATransitionReveal //底部显出来
+     举例:animation.type = kCATransitionPush;
+     
+     翻转方向SubType:
+     kCATransitionFromRight
+     kCATransitionFromLeft // 默认值
+     kCATransitionFromTop
+     kCATransitionFromBottom
+     
+     设置其他动画类型的方法(type)需要用字符串类型取值
+     pageCurl 向上翻一页
+     pageUnCurl 向下翻一页
+     rippleEffect 滴水效果
+     suckEffect 收缩效果，如一块布被抽走
+     cube 立方体效果
+     oglFlip 上下翻转效果
+     比如: animation.type =@"pageCurl";
+     */
+    VideosViewController *vc = [[VideosViewController alloc] init];
+    vc.hidesBottomBarWhenPushed = YES;
+
+    CATransition *animation = [CATransition animation];
+    animation.duration = 0.5;
+    animation.timingFunction = UIViewAnimationCurveEaseInOut;
+    animation.type = kCATransitionReveal;
+//    animation.type =@"cube";
+    animation.subtype = kCATransitionFromRight;
+    
+    [self.view.window.layer addAnimation:animation forKey:nil];
+    //注意以下方法必须animated设置NO,而且返回的动画还是默
+    [self.navigationController pushViewController:vc animated:NO];
 }
 -(void)getData
 {
@@ -141,25 +183,7 @@
             
     }
 }
--(void)creatBackBtn
-{
-    SWRevealViewController *revealController = [self revealViewController];
-    
-    
-    [revealController panGestureRecognizer];
-    [revealController tapGestureRecognizer];
 
-    UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    backBtn.bounds = CGRectMake(0, 0, 50, 50);
-    [backBtn setImage:[UIImage imageNamed:@"my_headerImg"]
-             forState:UIControlStateNormal];
-
-    [backBtn addTarget:revealController action:@selector(revealToggle:) forControlEvents:UIControlEventTouchUpInside];
-    backBtn.layer.masksToBounds = YES;
-    backBtn.layer.cornerRadius = 25;
-    UIBarButtonItem *backBtnItem = [[UIBarButtonItem alloc] initWithCustomView:backBtn];
-      self.navigationItem.leftBarButtonItem = backBtnItem;
-}
 -(void)backBtn
 {
     
@@ -198,20 +222,9 @@
     btn.layer.masksToBounds = YES;
     btn.layer.cornerRadius = 5;
     
-//    UIButton *btn1 = [UIButton buttonWithType:UIButtonTypeCustom];
-//    btn1.frame = CGRectMake(0, HEIGHT - 100, WIDTH, 50);
-//    btn1.centerX = self.view.centerX;
-//    [btn1 setTitle:@"高仿走步" forState:UIControlStateNormal];
-//    [btn1 setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-//    [btn1 setBackgroundColor:UICOLOR_HEX(0x254121)];
-//    [btn1 addTarget:self action:@selector(setUpBtn) forControlEvents:UIControlEventTouchUpInside];
-//    [self.view addSubview:btn1];
-//    btn1.layer.masksToBounds = YES;
-//    btn1.layer.cornerRadius = 5;
+
     
-    
-    [self gongli];
-    [self bushu];
+   
     
     
     
@@ -251,12 +264,14 @@
 {
     VPNViewController *vcv = [[VPNViewController alloc] init];
     [self.navigationController pushViewController:vcv animated:YES];
-//    [self shua];
 
 }
 -(void)bushu
 {
     HealthKitManage *manage = [HealthKitManage shareInstance];
+    [manage fetchAllHealthDataByDay:^(double setup) {
+        NSLog(@"防作弊数据: %f",setup);
+    }];
     [manage authorizeHealthKit:^(BOOL success, NSError *error) {
         
         if (success) {

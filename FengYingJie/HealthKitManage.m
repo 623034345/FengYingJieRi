@@ -114,9 +114,16 @@
         {
             completion(0,error);
         }
+        else if ([results count] == 0)
+        {
+            //没有步数
+        }
         else
         {
             
+    
+            
+      
             NSInteger totleSteps = 0;
             for(HKQuantitySample *quantitySample in results)
             {
@@ -178,7 +185,7 @@
     NSPredicate *predicate = [HKQuery predicateForSamplesWithStartDate:startDate endDate:endDate options:HKQueryOptionNone];
     return predicate;
 }
-#define  mark -防止作弊
+#define  mark -并不能真正的防止作弊
 
 - (void)fetchAllHealthDataByDay:(void (^)(double setup))queryResultBlock {
     
@@ -211,28 +218,38 @@
                                NSLog(@"an error occurred while calculating the statistics %@",error.localizedDescription);
                            } else {
                                
-                               __block NSMutableArray *tempArray = @[].mutableCopy;
-                               
+//                               __block NSMutableArray *tempArray = @[].mutableCopy;
+                                __block NSInteger page = 0;
                                [result.statistics enumerateObjectsUsingBlock:^(HKStatistics * _Nonnull statistics, NSUInteger idx, BOOL * _Nonnull statisticsStop) {
+                                   
                                    [statistics.sources enumerateObjectsUsingBlock:^(HKSource * _Nonnull source, NSUInteger idx, BOOL * _Nonnull sourceStop) {
-                                       if ([source.name isEqualToString:[UIDevice currentDevice].name]) {//只取设备的步数，过滤其他第三方应用的
+                                       
+                                       
+                                       NSLog(@"本机名称1: %@ --%@",source.name,source.bundleIdentifier);
+
+                                      
+                                       if ([source.name isEqualToString:[UIDevice currentDevice].name])/// && [source.bundleIdentifier rangeOfString:@"bundleIdentifiercom.apple.health"].location != NSNotFound
+                                       {
+                                           page ++;
+                                           //只取设备的步数，过滤其他第三方应用的
                                            double stepCount = [[statistics sumQuantityForSource:source] doubleValueForUnit:[HKUnit countUnit]];
-                                           
+                                           NSLog(@"应用名称1: %@ ----%f -----bundleIdentifier%@",source.name,stepCount,source.bundleIdentifier);
+
                                            @autoreleasepool {
-//                                               //数据封装
-//                                               MHMHealthModel *healthModel = [[MHMHealthModel alloc] init];
-//                                               healthModel.startDateComponents = [calendar components:NSCalendarUnitSecond | NSCalendarUnitMinute | NSCalendarUnitHour | NSCalendarUnitDay | NSCalendarUnitMonth | NSCalendarUnitYear
-//                                                                                             fromDate:statistics.startDate];
-//                                               healthModel.endDateComponents = [calendar components:NSCalendarUnitSecond | NSCalendarUnitMinute | NSCalendarUnitHour | NSCalendarUnitDay | NSCalendarUnitMonth | NSCalendarUnitYear
-//                                                                                           fromDate:statistics.endDate];
-//                                               healthModel.stepCount = stepCount;
-//                                               [tempArray insertObject:healthModel atIndex:0];//倒序
                                                YJstepCount = stepCount;
                                            }
                                            *sourceStop = YES;
                                        }
+
+                                       else
+                                       {
+                                           NSLog(@"本机名称: %@",source.name);
+                                       }
+                                       
                                    }];
                                }];
+                               NSLog(@"一共: %ld 条数据",page);
+
                                
                                if (queryResultBlock) {
                                    queryResultBlock(YJstepCount);

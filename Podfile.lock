@@ -23,6 +23,7 @@ PODS:
   - CYWebviewController (1.1.1)
   - IQKeyboardManager (4.0.8)
   - JazzHands (2.0.8)
+  - Masonry (1.1.0)
   - MBProgressHUD (1.0.0)
   - SDAutoLayout (2.1.7)
   - SDWebImage (4.0.0-beta2):
@@ -41,6 +42,7 @@ DEPENDENCIES:
   - CYWebviewController
   - IQKeyboardManager (~> 4.0.5)
   - JazzHands
+  - Masonry
   - MBProgressHUD
   - SDAutoLayout (~> 2.1.7)
   - SDWebImage (~> 4.0.0-beta2)
@@ -55,11 +57,12 @@ SPEC CHECKSUMS:
   CYWebviewController: 0787d55dddbfd8aa0588521d4480218ffdb4e5d3
   IQKeyboardManager: 1a8189fa153bf09044355ee0ad36826f6767e7f7
   JazzHands: 355dc5c2b6fc38ee460d0ed7836c69539263f477
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   SDAutoLayout: e9b36d04b8c0b504762a04d76fbbe5108944297a
   SDWebImage: e379f33106cf8d6766f970c0ef1c3fb609c94d78
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 173649dc223e16a1d3878872f6f9d3fe5c7287c9
+PODFILE CHECKSUM: 4d42dd9f2a3029de4f637ab661dd4b79411adb6c
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.4.0.rc.1

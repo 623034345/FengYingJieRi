@@ -17,7 +17,7 @@
 #import "SDAutoLayout.h"
 #import <AVOSCloud/AVOSCloud.h>
 #import "FYJAvCloud.h"
-
+#import "Masonry.h"
 //#import "YYKit.h"
 //重写NSLog,Debug模式下打印日志和当前行数
 #if DEBUG
@@ -29,4 +29,6 @@
 #define HEIGHT [UIScreen mainScreen].bounds.size.height
 #define UICOLOR_HEX(hexColor) \
 [UIColor colorWithRed: (((hexColor >> 16) & 0xFF)) / 255.0f green: (((hexColor >> 8) & 0xFF)) / 255.0f blue: ((hexColor & 0xFF)) / 255.0f alpha:1.0f]
+
+#define iPhoneX (HEIGHT == 812)
 #endif /* Header_h */

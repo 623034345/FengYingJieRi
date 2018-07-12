@@ -11,7 +11,6 @@
 #import "FYJTheConstellationViewController.h"
 #import "TheIunarCalendarViewController.h"
 #import "YJWiFiViewController.h"
-#import "PlayViewController.h"
 #import "VPNViewController.h"
 #import "HealthViewController.h"
 #import "HealthViewController.h"
@@ -20,6 +19,8 @@
 #import "LeftViewController.h"
 #import "HealthViewController.h"
 #import <AVOSCloud/AVOSCloud.h>
+#import "NavigationViewController.h"
+#import "VideosViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -54,7 +55,7 @@ static NSString *LeanCloudMasterKey = @"cNRMyWAacVh3QEy6Fdc4EbXf";
 // 通过3dtouch菜单启动 后回调
 - (void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void (^)(BOOL))completionHandler{
     HealthViewController *vc = [[HealthViewController alloc] init];
-    LCPanNavigationController *nav = [[LCPanNavigationController alloc] initWithRootViewController:vc];
+    NavigationViewController *nav = [[NavigationViewController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
     
     // 可以通过标题 字符串判断 来确认 是哪个item
@@ -105,20 +106,20 @@ static NSString *LeanCloudMasterKey = @"cNRMyWAacVh3QEy6Fdc4EbXf";
     TheIunarCalendarViewController *tvc = [[TheIunarCalendarViewController alloc] init];
     HealthViewController *hvc = [[HealthViewController alloc] init];
     
-    LeftViewController *lvc = [[LeftViewController alloc] init];
+//    LeftViewController *lvc = [[LeftViewController alloc] init];
     
-    LCPanNavigationController *nav1 = [[LCPanNavigationController alloc]initWithRootViewController:hvc];
-    LCPanNavigationController *nav2 = [[LCPanNavigationController alloc]initWithRootViewController:lvc];
-    
-    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor grayColor]}];
-    [self pushToRealV:nav1 leftVC:nav2];
+//    NavigationViewController *nav1 = [[NavigationViewController alloc]initWithRootViewController:hvc];
+//    NavigationViewController *nav2 = [[NavigationViewController alloc]initWithRootViewController:lvc];
+//
+//    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor grayColor]}];
+//    [self pushToRealV:nav1 leftVC:nav2];
     
     
     
     NSArray *tabbarImgs = [NSArray arrayWithObjects:@"健康",@"星座",@"日历", nil];
     NSArray *tabbarSelectImgs = [NSArray arrayWithObjects:@"健康2",@"星座2",@"日历2", nil];
     NSArray *titleArr = [NSArray arrayWithObjects:@"健康",@"星座",@"日历", nil];
-    NSArray *views = [NSArray arrayWithObjects:self.viewController,tvc,fvc,nil];
+    NSArray *views = [NSArray arrayWithObjects:hvc,tvc,fvc,nil];
     NSMutableArray *navArr = [[NSMutableArray alloc] initWithCapacity:0];
     
     for (int i = 0; i < views.count; i++)
@@ -132,18 +133,10 @@ static NSString *LeanCloudMasterKey = @"cNRMyWAacVh3QEy6Fdc4EbXf";
         
         view.tabBarItem.imageInsets = UIEdgeInsetsMake(2, 0, -2, 0);
         [view.tabBarItem setTitlePositionAdjustment:UIOffsetMake(-2, -2)];
-        if (i == 0)
-        {
-            [navArr addObject:view];
-            
-        }
-        else
-        {
-            LCPanNavigationController *nav=[[LCPanNavigationController alloc]initWithRootViewController:view];
-            [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor grayColor]}];
-            
-            [navArr addObject:nav];
-        }
+        NavigationViewController *nav=[[NavigationViewController alloc]initWithRootViewController:view];
+        [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor grayColor]}];
+        
+        [navArr addObject:nav];
         
     }
     
@@ -194,6 +187,19 @@ static NSString *LeanCloudMasterKey = @"cNRMyWAacVh3QEy6Fdc4EbXf";
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
-
+//分享
+-(BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    if (url && [url isFileURL]) {
+        HealthViewController *vc = [[HealthViewController alloc] init];
+        NavigationViewController *nav = [[NavigationViewController alloc] initWithRootViewController:vc];
+        self.window.rootViewController = nav;
+        
+        // 可以通过标题 字符串判断 来确认 是哪个item
+        VideosViewController *fvc = [[VideosViewController alloc] init];
+        [fvc handleDocumentOpenURL:url];
+        [nav pushViewController:fvc animated:YES];
+        return YES;
+    }
+    return NO;
+}
 @end

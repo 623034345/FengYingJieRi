@@ -4,6 +4,8 @@ use_frameworks!
 target ‘FengYingJie’ do
 pod 'IQKeyboardManager', '~> 4.0.5'
 pod 'SDAutoLayout', '~> 2.1.7' #适配
+pod 'Masonry'
+
 pod 'YYKit'
 pod 'SDWebImage', '~> 4.0.0-beta2'
 pod 'CardIO' #银行卡识别
@@ -18,7 +20,7 @@ pod 'AVOSCloud'               # 数据存储、短信、云引擎调用等基础
 pod 'AVOSCloudIM'             # 实时通信模块
 pod 'AVOSCloudCrashReporting' # 错误报告模块
 pod 'CYWebviewController'     #伪装微信
-
+#pod 'WMPlayer'#播放器
 #很帅的数据加载动画（可以用于数据列表加载的展现）地址：https://github.com/NghiaTranUIT/FeSpinner
 
 

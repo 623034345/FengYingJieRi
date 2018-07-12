@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0414B52720BE577F00959723 /* VideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0414B52620BE577F00959723 /* VideosViewController.m */; };
+		0414B52A20BE897000959723 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0414B52820BE896F00959723 /* NavigationViewController.m */; };
 		041DE9AD1E9CBEF900C00502 /* UIView+ZJFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DE99D1E9CBEF900C00502 /* UIView+ZJFrame.m */; };
 		041DE9AE1E9CBEF900C00502 /* UIViewController+ZJScrollPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DE99F1E9CBEF900C00502 /* UIViewController+ZJScrollPageController.m */; };
 		041DE9AF1E9CBEF900C00502 /* ZJCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DE9A11E9CBEF900C00502 /* ZJCollectionView.m */; };
@@ -15,10 +17,6 @@
 		041DE9B21E9CBEF900C00502 /* ZJScrollSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DE9A81E9CBEF900C00502 /* ZJScrollSegmentView.m */; };
 		041DE9B31E9CBEF900C00502 /* ZJSegmentStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DE9AA1E9CBEF900C00502 /* ZJSegmentStyle.m */; };
 		041DE9B41E9CBEF900C00502 /* ZJTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DE9AC1E9CBEF900C00502 /* ZJTitleView.m */; };
-		041DE9B81E9CBF5500C00502 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DE9B71E9CBF5500C00502 /* PlayViewController.m */; };
-		041DE9BF1E9CC08500C00502 /* ZJPageCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DE9BA1E9CC08500C00502 /* ZJPageCollectionViewController.m */; };
-		041DE9C01E9CC08500C00502 /* ZJPageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DE9BC1E9CC08500C00502 /* ZJPageTableViewController.m */; };
-		041DE9C11E9CC08500C00502 /* ZJPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DE9BE1E9CC08500C00502 /* ZJPageViewController.m */; };
 		0420C0D51EF3AE95002A6A23 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0420C0D41EF3AE95002A6A23 /* QuartzCore.framework */; };
 		0420C0D71EF3AE9F002A6A23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0420C0D61EF3AE9F002A6A23 /* Foundation.framework */; };
 		0420C0D91EF3AEA7002A6A23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0420C0D81EF3AEA7002A6A23 /* UIKit.framework */; };
@@ -38,6 +36,14 @@
 		0449B11F1E837DFF0071E9E8 /* FYJTheConstellationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449B11D1E837DFF0071E9E8 /* FYJTheConstellationViewController.m */; };
 		0449B1201E837DFF0071E9E8 /* FYJTheConstellationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0449B11E1E837DFF0071E9E8 /* FYJTheConstellationViewController.xib */; };
 		0449B1241E837EA60071E9E8 /* WZBDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449B1231E837EA60071E9E8 /* WZBDatePicker.m */; };
+		04736B8420C7B1EF0072B6CC /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04736B8320C7B1EF0072B6CC /* BaseViewController.m */; };
+		04736B8B20C7CD3A0072B6CC /* VideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04736B8820C7CD390072B6CC /* VideoCell.xib */; };
+		04736B8C20C7CD3A0072B6CC /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04736B8A20C7CD3A0072B6CC /* VideoCell.m */; };
+		04736B9920C7D9DE0072B6CC /* WMPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04736B8F20C7D9DD0072B6CC /* WMPlayer.bundle */; };
+		04736B9A20C7D9DE0072B6CC /* WMLightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04736B9520C7D9DD0072B6CC /* WMLightView.m */; };
+		04736B9B20C7D9DE0072B6CC /* FastForwardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04736B9620C7D9DD0072B6CC /* FastForwardView.m */; };
+		04736B9C20C7D9DE0072B6CC /* WMPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04736B9720C7D9DD0072B6CC /* WMPlayer.m */; };
+		04736B9F20C7DCA20072B6CC /* WMPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04736B9E20C7DCA20072B6CC /* WMPlayerModel.m */; };
 		0473EAED1EF123F3009097C9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0473EAEC1EF123F3009097C9 /* SWRevealViewController.m */; };
 		0473EAF11EF124AD009097C9 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0473EAF01EF124AD009097C9 /* LeftViewController.m */; };
 		0477E8841E851A88001AC4DF /* TheIunarCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E8821E851A88001AC4DF /* TheIunarCalendarViewController.m */; };
@@ -63,6 +69,7 @@
 		0498962F1F1F449000D11791 /* FYJAvCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 0498962E1F1F449000D11791 /* FYJAvCloud.m */; };
 		04A3F7541E9F19DE00E1E542 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A3F7531E9F19DE00E1E542 /* NetworkExtension.framework */; };
 		04A3F7581E9F1A8300E1E542 /* VPNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A3F7571E9F1A8300E1E542 /* VPNViewController.m */; };
+		04AF4C9D20EB6D2C00EA87CA /* MLHealthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AF4C9C20EB6D2C00EA87CA /* MLHealthManager.m */; };
 		04C212411E8A132200F7016C /* UICalender.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C212401E8A132200F7016C /* UICalender.m */; };
 		04C212441E8A137E00F7016C /* DataCalender.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C212431E8A137E00F7016C /* DataCalender.m */; };
 		04C212471E8A45B200F7016C /* YJBirthday.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C212461E8A45B200F7016C /* YJBirthday.m */; };
@@ -96,6 +103,10 @@
 
 /* Begin PBXFileReference section */
 		03827EE5890C86F6AD593E7D /* Pods-FengYingJie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FengYingJie.release.xcconfig"; path = "Pods/Target Support Files/Pods-FengYingJie/Pods-FengYingJie.release.xcconfig"; sourceTree = "<group>"; };
+		0414B52520BE577F00959723 /* VideosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideosViewController.h; sourceTree = "<group>"; };
+		0414B52620BE577F00959723 /* VideosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideosViewController.m; sourceTree = "<group>"; };
+		0414B52820BE896F00959723 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		0414B52920BE897000959723 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
 		041DE99C1E9CBEF900C00502 /* UIView+ZJFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZJFrame.h"; sourceTree = "<group>"; };
 		041DE99D1E9CBEF900C00502 /* UIView+ZJFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZJFrame.m"; sourceTree = "<group>"; };
 		041DE99E1E9CBEF900C00502 /* UIViewController+ZJScrollPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZJScrollPageController.h"; sourceTree = "<group>"; };
@@ -113,14 +124,6 @@
 		041DE9AA1E9CBEF900C00502 /* ZJSegmentStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSegmentStyle.m; sourceTree = "<group>"; };
 		041DE9AB1E9CBEF900C00502 /* ZJTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTitleView.h; sourceTree = "<group>"; };
 		041DE9AC1E9CBEF900C00502 /* ZJTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTitleView.m; sourceTree = "<group>"; };
-		041DE9B61E9CBF5500C00502 /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
-		041DE9B71E9CBF5500C00502 /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
-		041DE9B91E9CC08500C00502 /* ZJPageCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPageCollectionViewController.h; sourceTree = "<group>"; };
-		041DE9BA1E9CC08500C00502 /* ZJPageCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPageCollectionViewController.m; sourceTree = "<group>"; };
-		041DE9BB1E9CC08500C00502 /* ZJPageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPageTableViewController.h; sourceTree = "<group>"; };
-		041DE9BC1E9CC08500C00502 /* ZJPageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPageTableViewController.m; sourceTree = "<group>"; };
-		041DE9BD1E9CC08500C00502 /* ZJPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPageViewController.h; sourceTree = "<group>"; };
-		041DE9BE1E9CC08500C00502 /* ZJPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPageViewController.m; sourceTree = "<group>"; };
 		0420C0D41EF3AE95002A6A23 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0420C0D61EF3AE9F002A6A23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0420C0D81EF3AEA7002A6A23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -154,6 +157,20 @@
 		0449B11E1E837DFF0071E9E8 /* FYJTheConstellationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYJTheConstellationViewController.xib; sourceTree = "<group>"; };
 		0449B1221E837EA60071E9E8 /* WZBDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZBDatePicker.h; sourceTree = "<group>"; };
 		0449B1231E837EA60071E9E8 /* WZBDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZBDatePicker.m; sourceTree = "<group>"; };
+		04736B8220C7B1EF0072B6CC /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		04736B8320C7B1EF0072B6CC /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		04736B8820C7CD390072B6CC /* VideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoCell.xib; sourceTree = "<group>"; };
+		04736B8920C7CD3A0072B6CC /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
+		04736B8A20C7CD3A0072B6CC /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
+		04736B8F20C7D9DD0072B6CC /* WMPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WMPlayer.bundle; sourceTree = "<group>"; };
+		04736B9020C7D9DD0072B6CC /* WMPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPlayer.h; sourceTree = "<group>"; };
+		04736B9320C7D9DD0072B6CC /* WMLightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMLightView.h; sourceTree = "<group>"; };
+		04736B9420C7D9DD0072B6CC /* FastForwardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastForwardView.h; sourceTree = "<group>"; };
+		04736B9520C7D9DD0072B6CC /* WMLightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMLightView.m; sourceTree = "<group>"; };
+		04736B9620C7D9DD0072B6CC /* FastForwardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastForwardView.m; sourceTree = "<group>"; };
+		04736B9720C7D9DD0072B6CC /* WMPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPlayer.m; sourceTree = "<group>"; };
+		04736B9D20C7DCA00072B6CC /* WMPlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPlayerModel.h; sourceTree = "<group>"; };
+		04736B9E20C7DCA20072B6CC /* WMPlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPlayerModel.m; sourceTree = "<group>"; };
 		0473EAEB1EF123F3009097C9 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		0473EAEC1EF123F3009097C9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		0473EAEF1EF124AD009097C9 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
@@ -189,6 +206,8 @@
 		04A3F7531E9F19DE00E1E542 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		04A3F7561E9F1A8300E1E542 /* VPNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPNViewController.h; sourceTree = "<group>"; };
 		04A3F7571E9F1A8300E1E542 /* VPNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPNViewController.m; sourceTree = "<group>"; };
+		04AF4C9B20EB6D2C00EA87CA /* MLHealthManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLHealthManager.h; sourceTree = "<group>"; };
+		04AF4C9C20EB6D2C00EA87CA /* MLHealthManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLHealthManager.m; sourceTree = "<group>"; };
 		04C2123F1E8A132200F7016C /* UICalender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICalender.h; sourceTree = "<group>"; };
 		04C212401E8A132200F7016C /* UICalender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICalender.m; sourceTree = "<group>"; };
 		04C212421E8A137E00F7016C /* DataCalender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCalender.h; sourceTree = "<group>"; };
@@ -259,6 +278,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0414B52420BE573400959723 /* 视频 */ = {
+			isa = PBXGroup;
+			children = (
+				04736B8D20C7D9DD0072B6CC /* WMPlayer */,
+				0414B52520BE577F00959723 /* VideosViewController.h */,
+				0414B52620BE577F00959723 /* VideosViewController.m */,
+				04736B8920C7CD3A0072B6CC /* VideoCell.h */,
+				04736B8A20C7CD3A0072B6CC /* VideoCell.m */,
+				04736B8820C7CD390072B6CC /* VideoCell.xib */,
+			);
+			name = "视频";
+			sourceTree = "<group>";
+		};
 		041DE99B1E9CBEF900C00502 /* ZJScrollPageView */ = {
 			isa = PBXGroup;
 			children = (
@@ -283,21 +315,6 @@
 			path = ZJScrollPageView;
 			sourceTree = "<group>";
 		};
-		041DE9B51E9CBF1C00C00502 /* 玩玩 */ = {
-			isa = PBXGroup;
-			children = (
-				041DE9B91E9CC08500C00502 /* ZJPageCollectionViewController.h */,
-				041DE9BA1E9CC08500C00502 /* ZJPageCollectionViewController.m */,
-				041DE9BB1E9CC08500C00502 /* ZJPageTableViewController.h */,
-				041DE9BC1E9CC08500C00502 /* ZJPageTableViewController.m */,
-				041DE9BD1E9CC08500C00502 /* ZJPageViewController.h */,
-				041DE9BE1E9CC08500C00502 /* ZJPageViewController.m */,
-				041DE9B61E9CBF5500C00502 /* PlayViewController.h */,
-				041DE9B71E9CBF5500C00502 /* PlayViewController.m */,
-			);
-			name = "玩玩";
-			sourceTree = "<group>";
-		};
 		0424AD001EA9D55300729350 /* 健康 */ = {
 			isa = PBXGroup;
 			children = (
@@ -307,6 +324,8 @@
 				0424AD121EA9F2B500729350 /* HealthKitManage.m */,
 				0424AD141EA9FDF500729350 /* CHHealthKitManager.h */,
 				0424AD151EA9FDF500729350 /* CHHealthKitManager.m */,
+				04AF4C9B20EB6D2C00EA87CA /* MLHealthManager.h */,
+				04AF4C9C20EB6D2C00EA87CA /* MLHealthManager.m */,
 				0463A6B61EADD49500EB71A8 /* 防作弊 */,
 			);
 			name = "健康";
@@ -340,10 +359,10 @@
 				0424AD061EA9DADF00729350 /* FengYingJie.entitlements */,
 				0449AFD71E8362120071E9E8 /* AppDelegate.h */,
 				0449AFD81E8362120071E9E8 /* AppDelegate.m */,
+				0414B52420BE573400959723 /* 视频 */,
 				0473EAEE1EF12496009097C9 /* 左侧 */,
 				0424AD001EA9D55300729350 /* 健康 */,
 				04A3F7551E9F1A7500E1E542 /* VPN */,
-				041DE9B51E9CBF1C00C00502 /* 玩玩 */,
 				04CFF7A61E8B4EB300CE576F /* WIFi */,
 				0449B1181E83727F0071E9E8 /* 文字 */,
 				0477E87D1E85167B001AC4DF /* Model */,
@@ -395,6 +414,8 @@
 				0449B00A1E8368680071E9E8 /* UIViewController+FYJViewController.m */,
 				0498962D1F1F449000D11791 /* FYJAvCloud.h */,
 				0498962E1F1F449000D11791 /* FYJAvCloud.m */,
+				04736B8220C7B1EF0072B6CC /* BaseViewController.h */,
+				04736B8320C7B1EF0072B6CC /* BaseViewController.m */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -437,6 +458,31 @@
 			name = "防作弊";
 			sourceTree = "<group>";
 		};
+		04736B8D20C7D9DD0072B6CC /* WMPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				04736B9D20C7DCA00072B6CC /* WMPlayerModel.h */,
+				04736B9E20C7DCA20072B6CC /* WMPlayerModel.m */,
+				04736B8F20C7D9DD0072B6CC /* WMPlayer.bundle */,
+				04736B9020C7D9DD0072B6CC /* WMPlayer.h */,
+				04736B9220C7D9DD0072B6CC /* View */,
+				04736B9720C7D9DD0072B6CC /* WMPlayer.m */,
+			);
+			name = WMPlayer;
+			path = ../../../../Downloads/WMPlayer/WMPlayer;
+			sourceTree = "<group>";
+		};
+		04736B9220C7D9DD0072B6CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04736B9320C7D9DD0072B6CC /* WMLightView.h */,
+				04736B9420C7D9DD0072B6CC /* FastForwardView.h */,
+				04736B9520C7D9DD0072B6CC /* WMLightView.m */,
+				04736B9620C7D9DD0072B6CC /* FastForwardView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		0473EAEA1EF123F3009097C9 /* SWRevealViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -477,6 +523,8 @@
 				048679321EB97CB40006186F /* LCPanNavigationController.m */,
 				048679331EB97CB40006186F /* UIView+Snapshot.h */,
 				048679341EB97CB40006186F /* UIView+Snapshot.m */,
+				0414B52920BE897000959723 /* NavigationViewController.h */,
+				0414B52820BE896F00959723 /* NavigationViewController.m */,
 			);
 			path = PanNavigationController;
 			sourceTree = "<group>";
@@ -676,7 +724,9 @@
 				0449AFE41E8362120071E9E8 /* LaunchScreen.storyboard in Resources */,
 				04E9E5D91F04CAE60018CF8B /* DownTableViewCell.xib in Resources */,
 				0449AFE11E8362120071E9E8 /* Assets.xcassets in Resources */,
+				04736B9920C7D9DE0072B6CC /* WMPlayer.bundle in Resources */,
 				0477E8851E851A88001AC4DF /* TheIunarCalendarViewController.xib in Resources */,
+				04736B8B20C7CD3A0072B6CC /* VideoCell.xib in Resources */,
 				0449B1201E837DFF0071E9E8 /* FYJTheConstellationViewController.xib in Resources */,
 				0477E88A1E851D54001AC4DF /* CalendarCell.xib in Resources */,
 			);
@@ -705,13 +755,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FengYingJie-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8C83D7F4CB02FDAA83946889 /* [CP] Embed Pods Frameworks */ = {
@@ -720,9 +773,34 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FengYingJie/Pods-FengYingJie-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AVOSCloud/AVOSCloud.framework",
+				"${BUILT_PRODUCTS_DIR}/AVOSCloudCrashReporting/AVOSCloudCrashReporting.framework",
+				"${BUILT_PRODUCTS_DIR}/AVOSCloudIM/AVOSCloudIM.framework",
+				"${BUILT_PRODUCTS_DIR}/BButton/BButton.framework",
+				"${BUILT_PRODUCTS_DIR}/CYWebviewController/CYWebviewController.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/JazzHands/JazzHands.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDAutoLayout/SDAutoLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AVOSCloud.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AVOSCloudCrashReporting.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AVOSCloudIM.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CYWebviewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JazzHands.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDAutoLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -754,37 +832,42 @@
 				0498962F1F1F449000D11791 /* FYJAvCloud.m in Sources */,
 				041DE9AD1E9CBEF900C00502 /* UIView+ZJFrame.m in Sources */,
 				04E9E5CE1F04C97D0018CF8B /* HSSessionModel.m in Sources */,
+				04736B9C20C7D9DE0072B6CC /* WMPlayer.m in Sources */,
 				048679371EB97CB40006186F /* UIView+Snapshot.m in Sources */,
-				041DE9C11E9CC08500C00502 /* ZJPageViewController.m in Sources */,
+				0414B52720BE577F00959723 /* VideosViewController.m in Sources */,
 				041DE9B41E9CBEF900C00502 /* ZJTitleView.m in Sources */,
 				0477E8841E851A88001AC4DF /* TheIunarCalendarViewController.m in Sources */,
 				0449B1241E837EA60071E9E8 /* WZBDatePicker.m in Sources */,
+				04736B9B20C7D9DE0072B6CC /* FastForwardView.m in Sources */,
+				0414B52A20BE897000959723 /* NavigationViewController.m in Sources */,
 				0424AD031EA9D56A00729350 /* HealthViewController.m in Sources */,
 				0449B11F1E837DFF0071E9E8 /* FYJTheConstellationViewController.m in Sources */,
 				041DE9B01E9CBEF900C00502 /* ZJContentView.m in Sources */,
 				041DE9B11E9CBEF900C00502 /* ZJScrollPageView.m in Sources */,
+				04736B8C20C7CD3A0072B6CC /* VideoCell.m in Sources */,
 				041DE9AF1E9CBEF900C00502 /* ZJCollectionView.m in Sources */,
 				04E9E5CF1F04C97D0018CF8B /* NSString+Hash.m in Sources */,
 				0449AFD91E8362120071E9E8 /* AppDelegate.m in Sources */,
 				04A3F7581E9F1A8300E1E542 /* VPNViewController.m in Sources */,
+				04AF4C9D20EB6D2C00EA87CA /* MLHealthManager.m in Sources */,
 				041DE9B21E9CBEF900C00502 /* ZJScrollSegmentView.m in Sources */,
 				0424AD131EA9F2B500729350 /* HealthKitManage.m in Sources */,
-				041DE9C01E9CC08500C00502 /* ZJPageTableViewController.m in Sources */,
+				04736B9F20C7DCA20072B6CC /* WMPlayerModel.m in Sources */,
 				041DE9B31E9CBEF900C00502 /* ZJSegmentStyle.m in Sources */,
-				041DE9BF1E9CC08500C00502 /* ZJPageCollectionViewController.m in Sources */,
 				048679361EB97CB40006186F /* LCPanNavigationController.m in Sources */,
 				04CFF7A91E8B4EDC00CE576F /* YJWiFiViewController.m in Sources */,
-				041DE9B81E9CBF5500C00502 /* PlayViewController.m in Sources */,
 				048679351EB97CB40006186F /* LCPanGestureRecognizer.m in Sources */,
 				0449AFD61E8362120071E9E8 /* main.m in Sources */,
 				04E9E5CD1F04C97D0018CF8B /* HSDownloadManager.m in Sources */,
 				041DE9AE1E9CBEF900C00502 /* UIViewController+ZJScrollPageController.m in Sources */,
 				04C212411E8A132200F7016C /* UICalender.m in Sources */,
+				04736B9A20C7D9DE0072B6CC /* WMLightView.m in Sources */,
 				0449B00B1E8368680071E9E8 /* UIViewController+FYJViewController.m in Sources */,
 				0473EAED1EF123F3009097C9 /* SWRevealViewController.m in Sources */,
 				04E9E5D31F04C9A80018CF8B /* DonwViewController.m in Sources */,
 				0424AD161EA9FDF500729350 /* CHHealthKitManager.m in Sources */,
 				04C212441E8A137E00F7016C /* DataCalender.m in Sources */,
+				04736B8420C7B1EF0072B6CC /* BaseViewController.m in Sources */,
 				0473EAF11EF124AD009097C9 /* LeftViewController.m in Sources */,
 				04C212471E8A45B200F7016C /* YJBirthday.m in Sources */,
 				04E9E5D81F04CAE60018CF8B /* DownTableViewCell.m in Sources */,
